@@ -495,6 +495,24 @@
           "src/main/resources/data/jiojoi/recipes/rewdsfd.json"
         ]
       }
+    },
+    {
+      "name": "Deadforest",
+      "type": "biome",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/worldgen/biome/deadforest.json",
+          "src/main/resources/data/jiojoi/worldgen/configured_feature/deadforest_tree.json",
+          "src/main/resources/data/jiojoi/worldgen/placed_feature/deadforest_tree.json",
+          "src/main/java/net/mcreator/jiojoi/world/features/treedecorators/DeadforestTrunkDecorator.java",
+          "src/main/java/net/mcreator/jiojoi/world/features/treedecorators/DeadforestFruitDecorator.java",
+          "src/main/java/net/mcreator/jiojoi/world/features/treedecorators/DeadforestLeaveDecorator.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -507,6 +525,7 @@
       "item.minecraft.lingering_potion.effect.basch": "Lingering Potion of Bauchschmerzen",
       "item.jiojoi.geolterbackfisch": "Geolterbackfisch",
       "item.jiojoi.knusperstabchen": "Knusperstabchen",
+      "biome.jiojoi.deadforest": "Deadforest",
       "item.jiojoi.kohlestabchen": "Kohlestabchen",
       "item.jiojoi.geschmolzenesmicroplastick": "Geschmolzenesmicroplastick",
       "item.jiojoi.backfisch": "Backfisch",

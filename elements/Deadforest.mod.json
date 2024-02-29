@@ -1,0 +1,149 @@
+{
+  "_fv": 57,
+  "_type": "biome",
+  "definition": {
+    "name": "Deadforest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.TUFF"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -6645094,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6505836,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -9864348,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -12304601,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -8356499,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.basalt_deltas.additions"
+    },
+    "additionsSound": {
+      "value": "ambient.basalt_deltas.mood"
+    },
+    "music": {
+      "value": "ambient.basalt_deltas.loop"
+    },
+    "moodSound": {
+      "value": "ambient.cave"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "Blocks.STRIPPED_OAK_LOG"
+    },
+    "treeBranch": {
+      "value": "Blocks.OAK_FENCE"
+    },
+    "treeVines": {
+      "value": "Blocks.GLOW_LICHEN"
+    },
+    "treeFruits": {
+      "value": "Blocks.HANGING_ROOTS"
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityVex"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCaveSpider"
+        },
+        "minGroup": 1,
+        "maxGroup": 6,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityAreaEffectCloud"
+        },
+        "minGroup": 1,
+        "maxGroup": 18,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}
