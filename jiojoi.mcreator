@@ -3,6 +3,7 @@
     {
       "name": "Hh",
       "type": "procedure",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hh",
@@ -16,6 +17,20 @@
             "type": "itemstack"
           }
         ]
+      }
+    },
+    {
+      "name": "Rfrf",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rfrf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/procedures/RfrfProcedure.java"
+        ],
+        "dependencies": []
       }
     }
   ],
