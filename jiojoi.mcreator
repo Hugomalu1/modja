@@ -136,21 +136,157 @@
           "src/main/resources/assets/jiojoi/models/item/knusperstabchen.json"
         ]
       }
+    },
+    {
+      "name": "Ziegelstabchen",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ziegelstabchen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/ziegelstabchen.json",
+          "src/main/java/net/mcreator/jiojoi/item/ZiegelstabchenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Kohlestabchen",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kohlestabchen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/kohlestabchen.json",
+          "src/main/java/net/mcreator/jiojoi/item/KohlestabchenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Feuerstabchen",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feuerstabchen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/FeuerstabchenItem.java",
+          "src/main/resources/assets/jiojoi/models/item/feuerstabchen.json"
+        ]
+      }
+    },
+    {
+      "name": "Fiiii",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fiiii",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/fiiii.json"
+        ]
+      }
+    },
+    {
+      "name": "RrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrR",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr_r.json"
+        ]
+      }
+    },
+    {
+      "name": "Ffddffdfdfdfdfd",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ffddffdfdfdfdfd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/ffddffdfdfdfdfd.json"
+        ]
+      }
+    },
+    {
+      "name": "Rerererrrerereerreer",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rerererrrerereerreer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/rerererrrerereerreer.json"
+        ]
+      }
+    },
+    {
+      "name": "Gvcfgdfdgdfg",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gvcfgdfdgdfg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/gvcfgdfdgdfg.json"
+        ]
+      }
+    },
+    {
+      "name": "Fgddfdfgfgdfgdfgd",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fgddfdfgfgdfgdfgd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/fgddfdfgfgdfgdfgd.json"
+        ]
+      }
+    },
+    {
+      "name": "Ereewrwrwer",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ereewrwrwer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/ereewrwrwer.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.jiojoi.ziegelstabchen": "Ziegelstabchen",
+      "item_group.jiojoi.urolindustry": "Urolindustry",
+      "item.jiojoi.fischstabchen": "Fischstabchen",
+      "item.jiojoi.urol_bucket": "Urol Bucket",
       "item.jiojoi.dwag": "Dwag",
       "block.jiojoi.urol": "Ur-ol",
       "item.jiojoi.geolterbackfisch": "Geolterbackfisch",
       "item.jiojoi.knusperstabchen": "Knusperstabchen",
-      "item_group.jiojoi.urolindustry": "Urolindustry",
+      "item.jiojoi.kohlestabchen": "Kohlestabchen",
       "item.jiojoi.backfisch": "Backfisch",
-      "fluid.jiojoi.urol": "Ur-ol",
-      "item.jiojoi.fischstabchen": "Fischstabchen",
-      "item.jiojoi.urol_bucket": "Urol Bucket"
+      "item.jiojoi.feuerstabchen": "Feuerstabchen",
+      "fluid.jiojoi.urol": "Ur-ol"
     }
   },
   "foldersRoot": {

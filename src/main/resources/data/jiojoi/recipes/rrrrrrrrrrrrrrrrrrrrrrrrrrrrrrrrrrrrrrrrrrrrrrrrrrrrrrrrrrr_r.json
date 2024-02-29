@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jiojoi:backfisch"
+    },
+    {
+      "item": "jiojoi:urol_bucket"
+    }
+  ],
+  "result": {
+    "item": "jiojoi:geolterbackfisch",
+    "count": 1
+  }
+}

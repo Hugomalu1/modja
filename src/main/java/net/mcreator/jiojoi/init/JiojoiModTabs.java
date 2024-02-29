@@ -22,5 +22,8 @@ public class JiojoiModTabs {
 				tabData.accept(JiojoiModItems.GEOLTERBACKFISCH.get());
 				tabData.accept(JiojoiModItems.FISCHSTABCHEN.get());
 				tabData.accept(JiojoiModItems.KNUSPERSTABCHEN.get());
+				tabData.accept(JiojoiModItems.ZIEGELSTABCHEN.get());
+				tabData.accept(JiojoiModItems.KOHLESTABCHEN.get());
+				tabData.accept(JiojoiModItems.FEUERSTABCHEN.get());
 			}).withSearchBar().build());
 }

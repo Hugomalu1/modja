@@ -10,10 +10,13 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.jiojoi.item.ZiegelstabchenItem;
 import net.mcreator.jiojoi.item.UrolItem;
+import net.mcreator.jiojoi.item.KohlestabchenItem;
 import net.mcreator.jiojoi.item.KnusperstabchenItem;
 import net.mcreator.jiojoi.item.GeolterbackfischItem;
 import net.mcreator.jiojoi.item.FischstabchenItem;
+import net.mcreator.jiojoi.item.FeuerstabchenItem;
 import net.mcreator.jiojoi.item.DwagItem;
 import net.mcreator.jiojoi.item.BackfischItem;
 import net.mcreator.jiojoi.JiojoiMod;
@@ -26,4 +29,7 @@ public class JiojoiModItems {
 	public static final RegistryObject<Item> GEOLTERBACKFISCH = REGISTRY.register("geolterbackfisch", () -> new GeolterbackfischItem());
 	public static final RegistryObject<Item> FISCHSTABCHEN = REGISTRY.register("fischstabchen", () -> new FischstabchenItem());
 	public static final RegistryObject<Item> KNUSPERSTABCHEN = REGISTRY.register("knusperstabchen", () -> new KnusperstabchenItem());
+	public static final RegistryObject<Item> ZIEGELSTABCHEN = REGISTRY.register("ziegelstabchen", () -> new ZiegelstabchenItem());
+	public static final RegistryObject<Item> KOHLESTABCHEN = REGISTRY.register("kohlestabchen", () -> new KohlestabchenItem());
+	public static final RegistryObject<Item> FEUERSTABCHEN = REGISTRY.register("feuerstabchen", () -> new FeuerstabchenItem());
 }
