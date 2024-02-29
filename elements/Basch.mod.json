@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Bauchschmerzen",
+    "splashName": "Splash Potion of Bauchschmerzen",
+    "lingeringName": "Lingering Potion of Bauchschmerzen",
+    "arrowName": "Arrow of Bauchschmerzen",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
