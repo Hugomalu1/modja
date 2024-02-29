@@ -36,12 +36,27 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "Dwag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dwag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/dwag.json",
+          "src/main/java/net/mcreator/jiojoi/item/DwagItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.jiojoi.dwag": "Dwag"
+    }
   },
   "foldersRoot": {
     "name": "~",
