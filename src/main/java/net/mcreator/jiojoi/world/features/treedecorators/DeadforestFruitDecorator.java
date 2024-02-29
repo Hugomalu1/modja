@@ -51,7 +51,7 @@ public class DeadforestFruitDecorator extends CocoaDecorator {
 						Direction direction1 = direction.getOpposite();
 						BlockPos blockpos = p_226026_.offset(direction1.getStepX(), 0, direction1.getStepZ());
 						if (context.isAir(blockpos)) {
-							context.setBlock(blockpos, Blocks.HANGING_ROOTS.defaultBlockState());
+							context.setBlock(blockpos, Blocks.DEAD_FIRE_CORAL_FAN.defaultBlockState());
 						}
 					}
 				}

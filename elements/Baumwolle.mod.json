@@ -100,6 +100,9 @@
       },
       {
         "value": "forest"
+      },
+      {
+        "value": "CUSTOM:Deadforest"
       }
     ],
     "generationType": "Flower",

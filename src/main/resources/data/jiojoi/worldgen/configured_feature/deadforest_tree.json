@@ -27,13 +27,9 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_fence",
+        "Name": "minecraft:dead_tube_coral_fan",
         "Properties": {
-          "east": "false",
-          "north": "false",
-          "south": "false",
-          "waterlogged": "false",
-          "west": "false"
+          "waterlogged": "true"
         }
       }
     },

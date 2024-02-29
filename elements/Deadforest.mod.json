@@ -83,13 +83,13 @@
       "value": "Blocks.STRIPPED_OAK_LOG"
     },
     "treeBranch": {
-      "value": "Blocks.OAK_FENCE"
+      "value": "Blocks.DEAD_TUBE_CORAL_FAN"
     },
     "treeVines": {
-      "value": "Blocks.GLOW_LICHEN"
+      "value": "Blocks.DEAD_FIRE_CORAL"
     },
     "treeFruits": {
-      "value": "Blocks.HANGING_ROOTS"
+      "value": "Blocks.DEAD_FIRE_CORAL_FAN"
     },
     "defaultFeatures": [
       "Caves",
