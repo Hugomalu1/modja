@@ -20,5 +20,7 @@ public class JiojoiModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jiojoi.urolindustry")).icon(() -> new ItemStack(JiojoiModItems.UROL_BUCKET.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(JiojoiModItems.BACKFISCH.get());
 				tabData.accept(JiojoiModItems.GEOLTERBACKFISCH.get());
+				tabData.accept(JiojoiModItems.FISCHSTABCHEN.get());
+				tabData.accept(JiojoiModItems.KNUSPERSTABCHEN.get());
 			}).withSearchBar().build());
 }

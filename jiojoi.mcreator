@@ -108,6 +108,34 @@
           "src/main/java/net/mcreator/jiojoi/item/GeolterbackfischItem.java"
         ]
       }
+    },
+    {
+      "name": "Fischstabchen",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fischstabchen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/FischstabchenItem.java",
+          "src/main/resources/assets/jiojoi/models/item/fischstabchen.json"
+        ]
+      }
+    },
+    {
+      "name": "Knusperstabchen",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knusperstabchen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/KnusperstabchenItem.java",
+          "src/main/resources/assets/jiojoi/models/item/knusperstabchen.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -117,9 +145,11 @@
       "item.jiojoi.dwag": "Dwag",
       "block.jiojoi.urol": "Ur-ol",
       "item.jiojoi.geolterbackfisch": "Geolterbackfisch",
+      "item.jiojoi.knusperstabchen": "Knusperstabchen",
       "item_group.jiojoi.urolindustry": "Urolindustry",
       "item.jiojoi.backfisch": "Backfisch",
       "fluid.jiojoi.urol": "Ur-ol",
+      "item.jiojoi.fischstabchen": "Fischstabchen",
       "item.jiojoi.urol_bucket": "Urol Bucket"
     }
   },
