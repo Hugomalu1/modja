@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.jiojoi.init.JiojoiModTabs;
 import net.mcreator.jiojoi.init.JiojoiModItems;
 import net.mcreator.jiojoi.init.JiojoiModFluids;
 import net.mcreator.jiojoi.init.JiojoiModFluidTypes;
@@ -55,6 +56,8 @@ public class JiojoiMod {
 		JiojoiModBlocks.REGISTRY.register(bus);
 
 		JiojoiModItems.REGISTRY.register(bus);
+
+		JiojoiModTabs.REGISTRY.register(bus);
 
 		JiojoiModFluids.REGISTRY.register(bus);
 		JiojoiModFluidTypes.REGISTRY.register(bus);
