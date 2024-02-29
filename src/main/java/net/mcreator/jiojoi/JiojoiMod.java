@@ -30,6 +30,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.jiojoi.init.JiojoiModItems;
+import net.mcreator.jiojoi.init.JiojoiModFluids;
+import net.mcreator.jiojoi.init.JiojoiModFluidTypes;
+import net.mcreator.jiojoi.init.JiojoiModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,8 +52,12 @@ public class JiojoiMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		JiojoiModBlocks.REGISTRY.register(bus);
+
 		JiojoiModItems.REGISTRY.register(bus);
 
+		JiojoiModFluids.REGISTRY.register(bus);
+		JiojoiModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

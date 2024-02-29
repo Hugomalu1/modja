@@ -40,6 +40,7 @@
     {
       "name": "Dwag",
       "type": "item",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dwag",
@@ -49,13 +50,46 @@
           "src/main/java/net/mcreator/jiojoi/item/DwagItem.java"
         ]
       }
+    },
+    {
+      "name": "Urol",
+      "type": "fluid",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/blockstates/urol.json",
+          "src/main/java/net/mcreator/jiojoi/item/UrolItem.java",
+          "src/main/java/net/mcreator/jiojoi/fluid/types/UrolFluidType.java",
+          "src/main/java/net/mcreator/jiojoi/fluid/UrolFluid.java",
+          "src/main/java/net/mcreator/jiojoi/block/UrolBlock.java",
+          "src/main/resources/assets/jiojoi/models/block/urol.json",
+          "src/main/resources/assets/jiojoi/models/item/urol_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "Urolindustry",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urolindustry",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.jiojoi.dwag": "Dwag"
+      "item.jiojoi.dwag": "Dwag",
+      "block.jiojoi.urol": "Ur-ol",
+      "item_group.jiojoi.urolindustry": "Urolindustry",
+      "fluid.jiojoi.urol": "Ur-ol",
+      "item.jiojoi.urol_bucket": "Urol Bucket"
     }
   },
   "foldersRoot": {
