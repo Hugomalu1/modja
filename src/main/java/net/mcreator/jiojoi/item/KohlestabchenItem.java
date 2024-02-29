@@ -16,7 +16,7 @@ import java.util.List;
 
 public class KohlestabchenItem extends Item {
 	public KohlestabchenItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.2f).meat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.2f).meat().build()));
 	}
 
 	@Override

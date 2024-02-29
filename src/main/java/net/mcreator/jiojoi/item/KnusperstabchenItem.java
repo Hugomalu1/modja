@@ -13,7 +13,7 @@ import java.util.List;
 
 public class KnusperstabchenItem extends Item {
 	public KnusperstabchenItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(1.9f).meat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(1.9f).meat().build()));
 	}
 
 	@Override

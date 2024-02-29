@@ -100,7 +100,7 @@
     "spawnMineshaft": true,
     "spawnMineshaftMesa": true,
     "spawnPillagerOutpost": false,
-    "villageType": "none",
+    "villageType": "plains",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
