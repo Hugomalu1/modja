@@ -64,10 +64,10 @@ public class DeadforestLeaveDecorator extends LeaveVineDecorator {
 	}
 
 	private static void addVine(BlockPos pos, TreeDecorator.Context context) {
-		context.setBlock(pos, Blocks.DEAD_FIRE_CORAL.defaultBlockState());
+		context.setBlock(pos, Blocks.GLOW_LICHEN.defaultBlockState());
 		int i = 4;
 		for (BlockPos blockpos = pos.below(); context.isAir(blockpos) && i > 0; --i) {
-			context.setBlock(blockpos, Blocks.DEAD_FIRE_CORAL.defaultBlockState());
+			context.setBlock(blockpos, Blocks.GLOW_LICHEN.defaultBlockState());
 			blockpos = blockpos.below();
 		}
 	}

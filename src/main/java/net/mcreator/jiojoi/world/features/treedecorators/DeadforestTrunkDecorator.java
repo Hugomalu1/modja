@@ -35,25 +35,25 @@ public class DeadforestTrunkDecorator extends TrunkVineDecorator {
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.west();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, Blocks.DEAD_FIRE_CORAL.defaultBlockState());
+					context.setBlock(pos, Blocks.GLOW_LICHEN.defaultBlockState());
 				}
 			}
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.east();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, Blocks.DEAD_FIRE_CORAL.defaultBlockState());
+					context.setBlock(pos, Blocks.GLOW_LICHEN.defaultBlockState());
 				}
 			}
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.north();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, Blocks.DEAD_FIRE_CORAL.defaultBlockState());
+					context.setBlock(pos, Blocks.GLOW_LICHEN.defaultBlockState());
 				}
 			}
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.south();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, Blocks.DEAD_FIRE_CORAL.defaultBlockState());
+					context.setBlock(pos, Blocks.GLOW_LICHEN.defaultBlockState());
 				}
 			}
 		});
