@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.jiojoi.item.UrolItem;
+import net.mcreator.jiojoi.item.GeolterbackfischItem;
 import net.mcreator.jiojoi.item.DwagItem;
 import net.mcreator.jiojoi.item.BackfischItem;
 import net.mcreator.jiojoi.JiojoiMod;
@@ -20,4 +21,5 @@ public class JiojoiModItems {
 	public static final RegistryObject<Item> UROL_BUCKET = REGISTRY.register("urol_bucket", () -> new UrolItem());
 	public static final RegistryObject<Item> DWAG = REGISTRY.register("dwag", () -> new DwagItem());
 	public static final RegistryObject<Item> BACKFISCH = REGISTRY.register("backfisch", () -> new BackfischItem());
+	public static final RegistryObject<Item> GEOLTERBACKFISCH = REGISTRY.register("geolterbackfisch", () -> new GeolterbackfischItem());
 }
