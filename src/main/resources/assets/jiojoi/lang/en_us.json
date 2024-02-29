@@ -1,5 +1,6 @@
 {
   "item.jiojoi.ziegelstabchen": "Ziegelstabchen",
+  "block.jiojoi.microplastick": "Microplastick",
   "item_group.jiojoi.urolindustry": "Urolindustry",
   "item.jiojoi.fischstabchen": "Fischstabchen",
   "item.jiojoi.urol_bucket": "Urol Bucket",
@@ -8,7 +9,9 @@
   "item.jiojoi.geolterbackfisch": "Geolterbackfisch",
   "item.jiojoi.knusperstabchen": "Knusperstabchen",
   "item.jiojoi.kohlestabchen": "Kohlestabchen",
+  "item.jiojoi.geschmolzenesmicroplastick": "Geschmolzenesmicroplastick",
   "item.jiojoi.backfisch": "Backfisch",
   "item.jiojoi.feuerstabchen": "Feuerstabchen",
-  "fluid.jiojoi.urol": "Ur-ol"
+  "fluid.jiojoi.urol": "Ur-ol",
+  "item.jiojoi.microplastickfragment": "Microplastickfragment"
 }

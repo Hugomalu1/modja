@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jiojoi:microplastick"
+    }
+  ],
+  "result": {
+    "item": "jiojoi:microplastickfragment",
+    "count": 8
+  }
+}

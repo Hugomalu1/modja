@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.jiojoi.block.UrolBlock;
+import net.mcreator.jiojoi.block.MicroplastickBlock;
 import net.mcreator.jiojoi.JiojoiMod;
 
 public class JiojoiModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, JiojoiMod.MODID);
 	public static final RegistryObject<Block> UROL = REGISTRY.register("urol", () -> new UrolBlock());
+	public static final RegistryObject<Block> MICROPLASTICK = REGISTRY.register("microplastick", () -> new MicroplastickBlock());
 }

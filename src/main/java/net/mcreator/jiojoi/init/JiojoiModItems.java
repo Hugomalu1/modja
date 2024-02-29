@@ -8,12 +8,16 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.jiojoi.item.ZiegelstabchenItem;
 import net.mcreator.jiojoi.item.UrolItem;
+import net.mcreator.jiojoi.item.MicroplastickfragmentItem;
 import net.mcreator.jiojoi.item.KohlestabchenItem;
 import net.mcreator.jiojoi.item.KnusperstabchenItem;
+import net.mcreator.jiojoi.item.GeschmolzenesmicroplastickItem;
 import net.mcreator.jiojoi.item.GeolterbackfischItem;
 import net.mcreator.jiojoi.item.FischstabchenItem;
 import net.mcreator.jiojoi.item.FeuerstabchenItem;
@@ -32,4 +36,11 @@ public class JiojoiModItems {
 	public static final RegistryObject<Item> ZIEGELSTABCHEN = REGISTRY.register("ziegelstabchen", () -> new ZiegelstabchenItem());
 	public static final RegistryObject<Item> KOHLESTABCHEN = REGISTRY.register("kohlestabchen", () -> new KohlestabchenItem());
 	public static final RegistryObject<Item> FEUERSTABCHEN = REGISTRY.register("feuerstabchen", () -> new FeuerstabchenItem());
+	public static final RegistryObject<Item> MICROPLASTICK = block(JiojoiModBlocks.MICROPLASTICK);
+	public static final RegistryObject<Item> MICROPLASTICKFRAGMENT = REGISTRY.register("microplastickfragment", () -> new MicroplastickfragmentItem());
+	public static final RegistryObject<Item> GESCHMOLZENESMICROPLASTICK = REGISTRY.register("geschmolzenesmicroplastick", () -> new GeschmolzenesmicroplastickItem());
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

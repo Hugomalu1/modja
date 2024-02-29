@@ -25,5 +25,8 @@ public class JiojoiModTabs {
 				tabData.accept(JiojoiModItems.ZIEGELSTABCHEN.get());
 				tabData.accept(JiojoiModItems.KOHLESTABCHEN.get());
 				tabData.accept(JiojoiModItems.FEUERSTABCHEN.get());
+				tabData.accept(JiojoiModBlocks.MICROPLASTICK.get().asItem());
+				tabData.accept(JiojoiModItems.MICROPLASTICKFRAGMENT.get());
+				tabData.accept(JiojoiModItems.GESCHMOLZENESMICROPLASTICK.get());
 			}).withSearchBar().build());
 }
