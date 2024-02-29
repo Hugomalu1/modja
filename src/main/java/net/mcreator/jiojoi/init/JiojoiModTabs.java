@@ -18,6 +18,7 @@ public class JiojoiModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JiojoiMod.MODID);
 	public static final RegistryObject<CreativeModeTab> UROLINDUSTRY = REGISTRY.register("urolindustry",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jiojoi.urolindustry")).icon(() -> new ItemStack(JiojoiModItems.UROL_BUCKET.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(JiojoiModItems.UROL_BUCKET.get());
 				tabData.accept(JiojoiModItems.BACKFISCH.get());
 				tabData.accept(JiojoiModItems.GEOLTERBACKFISCH.get());
 				tabData.accept(JiojoiModItems.FISCHSTABCHEN.get());
