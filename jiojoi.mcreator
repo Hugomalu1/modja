@@ -402,6 +402,43 @@
           "src/main/java/net/mcreator/jiojoi/recipes/brewing/BdbffbdfdbdBrewingRecipe.java"
         ]
       }
+    },
+    {
+      "name": "Idk",
+      "type": "itemextension",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/extension/IdkItemExtension.java"
+        ]
+      }
+    },
+    {
+      "name": "Uuuu",
+      "type": "villagertrade",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uuuu",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Uroll",
+      "type": "damagetype",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uroll",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/damage_type/uroll.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -411,6 +448,7 @@
       "item.jiojoi.ziegelstabchen": "Ziegelstabchen",
       "block.jiojoi.microplastick": "Microplastick",
       "item_group.jiojoi.urolindustry": "Urolindustry",
+      "death.attack.uroll.item": "%1$s was killed by %2$s using %3$s",
       "item.jiojoi.fischstabchen": "Fischstabchen",
       "item.jiojoi.urol_bucket": "Urol Bucket",
       "item.jiojoi.dwag": "Dwag",
@@ -420,10 +458,12 @@
       "item.minecraft.splash_potion.effect.basch": "Splash Potion of Bauchschmerzen",
       "item.jiojoi.knusperstabchen": "Knusperstabchen",
       "item.jiojoi.kohlestabchen": "Kohlestabchen",
+      "death.attack.uroll": "%1$s got to deep into the lagooooon´s",
       "item.jiojoi.geschmolzenesmicroplastick": "Geschmolzenesmicroplastick",
       "item.jiojoi.backfisch": "Backfisch",
       "item.jiojoi.feuerstabchen": "Feuerstabchen",
       "fluid.jiojoi.urol": "Ur-ol",
+      "death.attack.uroll.player": "%1$s died whilst trying to escape %2$s",
       "item.minecraft.tipped_arrow.effect.basch": "Arrow of Bauchschmerzen",
       "effect.jiojoi.ba": "bauchschmerzen",
       "item.jiojoi.microplastickfragment": "Microplastickfragment",

@@ -1,0 +1,33 @@
+{
+  "_fv": 57,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "LEATHERWORKER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": "Items.BUCKET"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Urol.bucket"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 20,
+            "xp": 15,
+            "priceMultiplier": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

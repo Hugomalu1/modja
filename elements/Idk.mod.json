@@ -1,0 +1,15 @@
+{
+  "_fv": 57,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:Feuerstabchen"
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 2647.0
+    },
+    "hasDispenseBehavior": true,
+    "compostLayerChance": 0.0
+  }
+}
