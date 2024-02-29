@@ -29,5 +29,7 @@ public class JiojoiModTabs {
 				tabData.accept(JiojoiModBlocks.MICROPLASTICK.get().asItem());
 				tabData.accept(JiojoiModItems.MICROPLASTICKFRAGMENT.get());
 				tabData.accept(JiojoiModItems.GESCHMOLZENESMICROPLASTICK.get());
+				tabData.accept(JiojoiModBlocks.BAUMWOLLE.get().asItem());
+				tabData.accept(JiojoiModItems.STOFF.get());
 			}).withSearchBar().build());
 }

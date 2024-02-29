@@ -439,6 +439,62 @@
           "src/main/resources/data/jiojoi/damage_type/uroll.json"
         ]
       }
+    },
+    {
+      "name": "Baumwolle",
+      "type": "plant",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baumwolle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/blockstates/baumwolle.json",
+          "src/main/java/net/mcreator/jiojoi/block/BaumwolleBlock.java",
+          "src/main/resources/assets/jiojoi/models/block/baumwolle.json",
+          "src/main/resources/assets/jiojoi/models/item/baumwolle.json"
+        ]
+      }
+    },
+    {
+      "name": "Stoff",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/StoffItem.java",
+          "src/main/resources/assets/jiojoi/models/item/stoff.json"
+        ]
+      }
+    },
+    {
+      "name": "Assa",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/assa.json"
+        ]
+      }
+    },
+    {
+      "name": "Rewdsfd",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rewdsfd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/rewdsfd.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -446,28 +502,30 @@
   "language_map": {
     "en_us": {
       "item.jiojoi.ziegelstabchen": "Ziegelstabchen",
+      "block.jiojoi.baumwolle": "Baumwolle",
       "block.jiojoi.microplastick": "Microplastick",
+      "item.minecraft.lingering_potion.effect.basch": "Lingering Potion of Bauchschmerzen",
+      "item.jiojoi.geolterbackfisch": "Geolterbackfisch",
+      "item.jiojoi.knusperstabchen": "Knusperstabchen",
+      "item.jiojoi.kohlestabchen": "Kohlestabchen",
+      "item.jiojoi.geschmolzenesmicroplastick": "Geschmolzenesmicroplastick",
+      "item.jiojoi.backfisch": "Backfisch",
+      "fluid.jiojoi.urol": "Ur-ol",
+      "item.jiojoi.stoff": "Stoff",
+      "item.minecraft.tipped_arrow.effect.basch": "Arrow of Bauchschmerzen",
+      "effect.jiojoi.ba": "bauchschmerzen",
+      "item.minecraft.potion.effect.basch": "Potion of Bauchschmerzen",
       "item_group.jiojoi.urolindustry": "Urolindustry",
       "death.attack.uroll.item": "%1$s was killed by %2$s using %3$s",
       "item.jiojoi.fischstabchen": "Fischstabchen",
       "item.jiojoi.urol_bucket": "Urol Bucket",
       "item.jiojoi.dwag": "Dwag",
-      "item.minecraft.lingering_potion.effect.basch": "Lingering Potion of Bauchschmerzen",
       "block.jiojoi.urol": "Ur-ol",
-      "item.jiojoi.geolterbackfisch": "Geolterbackfisch",
       "item.minecraft.splash_potion.effect.basch": "Splash Potion of Bauchschmerzen",
-      "item.jiojoi.knusperstabchen": "Knusperstabchen",
-      "item.jiojoi.kohlestabchen": "Kohlestabchen",
       "death.attack.uroll": "%1$s got to deep into the lagooooon´s",
-      "item.jiojoi.geschmolzenesmicroplastick": "Geschmolzenesmicroplastick",
-      "item.jiojoi.backfisch": "Backfisch",
       "item.jiojoi.feuerstabchen": "Feuerstabchen",
-      "fluid.jiojoi.urol": "Ur-ol",
       "death.attack.uroll.player": "%1$s died whilst trying to escape %2$s",
-      "item.minecraft.tipped_arrow.effect.basch": "Arrow of Bauchschmerzen",
-      "effect.jiojoi.ba": "bauchschmerzen",
-      "item.jiojoi.microplastickfragment": "Microplastickfragment",
-      "item.minecraft.potion.effect.basch": "Potion of Bauchschmerzen"
+      "item.jiojoi.microplastickfragment": "Microplastickfragment"
     }
   },
   "foldersRoot": {

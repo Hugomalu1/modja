@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.jiojoi.item.ZiegelstabchenItem;
 import net.mcreator.jiojoi.item.UrolItem;
+import net.mcreator.jiojoi.item.StoffItem;
 import net.mcreator.jiojoi.item.MicroplastickfragmentItem;
 import net.mcreator.jiojoi.item.KohlestabchenItem;
 import net.mcreator.jiojoi.item.KnusperstabchenItem;
@@ -39,6 +40,8 @@ public class JiojoiModItems {
 	public static final RegistryObject<Item> MICROPLASTICK = block(JiojoiModBlocks.MICROPLASTICK);
 	public static final RegistryObject<Item> MICROPLASTICKFRAGMENT = REGISTRY.register("microplastickfragment", () -> new MicroplastickfragmentItem());
 	public static final RegistryObject<Item> GESCHMOLZENESMICROPLASTICK = REGISTRY.register("geschmolzenesmicroplastick", () -> new GeschmolzenesmicroplastickItem());
+	public static final RegistryObject<Item> BAUMWOLLE = block(JiojoiModBlocks.BAUMWOLLE);
+	public static final RegistryObject<Item> STOFF = REGISTRY.register("stoff", () -> new StoffItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

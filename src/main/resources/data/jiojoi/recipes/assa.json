@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jiojoi:stoff"
+    },
+    {
+      "item": "jiojoi:stoff"
+    },
+    {
+      "item": "jiojoi:stoff"
+    },
+    {
+      "item": "jiojoi:stoff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_wool",
+    "count": 1
+  }
+}
