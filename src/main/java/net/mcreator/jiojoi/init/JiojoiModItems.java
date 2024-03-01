@@ -16,6 +16,7 @@ import net.mcreator.jiojoi.item.ZiegelstabchenItem;
 import net.mcreator.jiojoi.item.UrolItem;
 import net.mcreator.jiojoi.item.TaschenlampeItem;
 import net.mcreator.jiojoi.item.StoffItem;
+import net.mcreator.jiojoi.item.PurlpelgulperItem;
 import net.mcreator.jiojoi.item.ProfishingrodItem;
 import net.mcreator.jiojoi.item.NamnamgekochterbarshItem;
 import net.mcreator.jiojoi.item.MicroplastickfragmentItem;
@@ -27,6 +28,7 @@ import net.mcreator.jiojoi.item.GrettneItem;
 import net.mcreator.jiojoi.item.GeschmolzenesmicroplastickItem;
 import net.mcreator.jiojoi.item.GeolterbackfischItem;
 import net.mcreator.jiojoi.item.GekochterhechtItem;
+import net.mcreator.jiojoi.item.FriedpurpelgulperItem;
 import net.mcreator.jiojoi.item.FischstabchenItem;
 import net.mcreator.jiojoi.item.FeuerstabchenItem;
 import net.mcreator.jiojoi.item.DwagItem;
@@ -60,6 +62,8 @@ public class JiojoiModItems {
 	public static final RegistryObject<Item> GRETTNE = REGISTRY.register("grettne", () -> new GrettneItem());
 	public static final RegistryObject<Item> DAWDAW = REGISTRY.register("dawdaw", () -> new DawdawItem());
 	public static final RegistryObject<Item> PROFISHINGROD = REGISTRY.register("profishingrod", () -> new ProfishingrodItem());
+	public static final RegistryObject<Item> PURLPELGULPER = REGISTRY.register("purlpelgulper", () -> new PurlpelgulperItem());
+	public static final RegistryObject<Item> FRIEDPURPELGULPER = REGISTRY.register("friedpurpelgulper", () -> new FriedpurpelgulperItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

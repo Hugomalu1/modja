@@ -687,14 +687,94 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Kjkjofgr",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kjkjofgr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/kjkjofgr.json"
+        ]
+      }
+    },
+    {
+      "name": "Purlpelgulper",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purlpelgulper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/PurlpelgulperItem.java",
+          "src/main/resources/assets/jiojoi/models/item/purlpelgulper.json"
+        ]
+      }
+    },
+    {
+      "name": "Friedpurpelgulper",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friedpurpelgulper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/FriedpurpelgulperItem.java",
+          "src/main/resources/assets/jiojoi/models/item/friedpurpelgulper.json"
+        ]
+      }
+    },
+    {
+      "name": "Trge",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/trge.json"
+        ]
+      }
+    },
+    {
+      "name": "Fhg",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fhg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/fhg.json"
+        ]
+      }
+    },
+    {
+      "name": "Fds",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/fds.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.jiojoi.ziegelstabchen": "Brickstick",
       "block.jiojoi.baumwolle": "cotton",
+      "item.jiojoi.ziegelstabchen": "Brickstick",
       "item.jiojoi.hecht": "Hecht idk the name auf english mussst du amken!!!",
       "block.jiojoi.microplastick": "Microplastick",
       "item.jiojoi.halfef": "halfeatenhecht",
@@ -703,6 +783,7 @@
       "item.jiojoi.geolterbackfisch": "oiled fried fish",
       "item.jiojoi.knusperstabchen": "Crispystick",
       "biome.jiojoi.deadforest": "Deadforest",
+      "item.jiojoi.friedpurpelgulper": "Friedpurpelgulper",
       "item.jiojoi.kohlestabchen": "Kohlestabchen",
       "item.jiojoi.geschmolzenesmicroplastick": "meltedmicroplastick",
       "item_group.jiojoi.fish": "Fish",
@@ -713,6 +794,7 @@
       "item.jiojoi.gekochterhecht": "fried hecht",
       "effect.jiojoi.ba": "bauchschmerzen",
       "item.minecraft.potion.effect.basch": "Potion of Bauchschmerzen",
+      "item.jiojoi.purlpelgulper": "Purlpel gulper",
       "item_group.jiojoi.urolindustry": "Urolindustry",
       "death.attack.uroll.item": "%1$s was killed by %2$s using %3$s",
       "item.jiojoi.fischstabchen": "Fishstick",

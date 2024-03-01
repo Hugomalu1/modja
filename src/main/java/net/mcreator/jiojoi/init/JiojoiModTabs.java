@@ -43,5 +43,7 @@ public class JiojoiModTabs {
 				tabData.accept(JiojoiModItems.GRETTNE.get());
 				tabData.accept(JiojoiModItems.DAWDAW.get());
 				tabData.accept(JiojoiModItems.PROFISHINGROD.get());
+				tabData.accept(JiojoiModItems.PURLPELGULPER.get());
+				tabData.accept(JiojoiModItems.FRIEDPURPELGULPER.get());
 			}).withSearchBar().build());
 }
