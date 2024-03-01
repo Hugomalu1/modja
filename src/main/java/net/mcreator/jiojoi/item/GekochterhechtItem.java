@@ -15,9 +15,9 @@ import net.mcreator.jiojoi.init.JiojoiModItems;
 
 import java.util.List;
 
-public class NamnamgekochterbarshItem extends Item {
-	public NamnamgekochterbarshItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.3f).build()));
+public class GekochterhechtItem extends Item {
+	public GekochterhechtItem() {
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(7).saturationMod(0.3f).build()));
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class NamnamgekochterbarshItem extends Item {
 
 	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
-		ItemStack retval = new ItemStack(JiojoiModItems.GRETTNE.get());
+		ItemStack retval = new ItemStack(JiojoiModItems.HALFEF.get());
 		super.finishUsingItem(itemstack, world, entity);
 		if (itemstack.isEmpty()) {
 			return retval;

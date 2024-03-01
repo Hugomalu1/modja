@@ -16,15 +16,21 @@ import net.mcreator.jiojoi.item.ZiegelstabchenItem;
 import net.mcreator.jiojoi.item.UrolItem;
 import net.mcreator.jiojoi.item.TaschenlampeItem;
 import net.mcreator.jiojoi.item.StoffItem;
+import net.mcreator.jiojoi.item.ProfishingrodItem;
 import net.mcreator.jiojoi.item.NamnamgekochterbarshItem;
 import net.mcreator.jiojoi.item.MicroplastickfragmentItem;
 import net.mcreator.jiojoi.item.KohlestabchenItem;
 import net.mcreator.jiojoi.item.KnusperstabchenItem;
+import net.mcreator.jiojoi.item.HechtItem;
+import net.mcreator.jiojoi.item.HalfefItem;
+import net.mcreator.jiojoi.item.GrettneItem;
 import net.mcreator.jiojoi.item.GeschmolzenesmicroplastickItem;
 import net.mcreator.jiojoi.item.GeolterbackfischItem;
+import net.mcreator.jiojoi.item.GekochterhechtItem;
 import net.mcreator.jiojoi.item.FischstabchenItem;
 import net.mcreator.jiojoi.item.FeuerstabchenItem;
 import net.mcreator.jiojoi.item.DwagItem;
+import net.mcreator.jiojoi.item.DawdawItem;
 import net.mcreator.jiojoi.item.BarschItem;
 import net.mcreator.jiojoi.item.BackfischItem;
 import net.mcreator.jiojoi.JiojoiMod;
@@ -48,6 +54,12 @@ public class JiojoiModItems {
 	public static final RegistryObject<Item> TASCHENLAMPE = REGISTRY.register("taschenlampe", () -> new TaschenlampeItem());
 	public static final RegistryObject<Item> BARSCH = REGISTRY.register("barsch", () -> new BarschItem());
 	public static final RegistryObject<Item> NAMNAMGEKOCHTERBARSH = REGISTRY.register("namnamgekochterbarsh", () -> new NamnamgekochterbarshItem());
+	public static final RegistryObject<Item> HECHT = REGISTRY.register("hecht", () -> new HechtItem());
+	public static final RegistryObject<Item> GEKOCHTERHECHT = REGISTRY.register("gekochterhecht", () -> new GekochterhechtItem());
+	public static final RegistryObject<Item> HALFEF = REGISTRY.register("halfef", () -> new HalfefItem());
+	public static final RegistryObject<Item> GRETTNE = REGISTRY.register("grettne", () -> new GrettneItem());
+	public static final RegistryObject<Item> DAWDAW = REGISTRY.register("dawdaw", () -> new DawdawItem());
+	public static final RegistryObject<Item> PROFISHINGROD = REGISTRY.register("profishingrod", () -> new ProfishingrodItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

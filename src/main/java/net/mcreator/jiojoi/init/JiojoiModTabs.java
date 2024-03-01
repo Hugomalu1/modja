@@ -32,7 +32,16 @@ public class JiojoiModTabs {
 				tabData.accept(JiojoiModBlocks.BAUMWOLLE.get().asItem());
 				tabData.accept(JiojoiModItems.STOFF.get());
 				tabData.accept(JiojoiModItems.TASCHENLAMPE.get());
+			}).withSearchBar().build());
+	public static final RegistryObject<CreativeModeTab> FISH = REGISTRY.register("fish",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jiojoi.fish")).icon(() -> new ItemStack(JiojoiModItems.BARSCH.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(JiojoiModItems.BARSCH.get());
 				tabData.accept(JiojoiModItems.NAMNAMGEKOCHTERBARSH.get());
+				tabData.accept(JiojoiModItems.HECHT.get());
+				tabData.accept(JiojoiModItems.GEKOCHTERHECHT.get());
+				tabData.accept(JiojoiModItems.HALFEF.get());
+				tabData.accept(JiojoiModItems.GRETTNE.get());
+				tabData.accept(JiojoiModItems.DAWDAW.get());
+				tabData.accept(JiojoiModItems.PROFISHINGROD.get());
 			}).withSearchBar().build());
 }

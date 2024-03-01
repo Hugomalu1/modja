@@ -15,9 +15,9 @@ import net.mcreator.jiojoi.init.JiojoiModItems;
 
 import java.util.List;
 
-public class NamnamgekochterbarshItem extends Item {
-	public NamnamgekochterbarshItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.3f).build()));
+public class HechtItem extends Item {
+	public HechtItem() {
+		super(new Item.Properties().stacksTo(32).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(3).saturationMod(0.3f).build()));
 	}
 
 	@Override

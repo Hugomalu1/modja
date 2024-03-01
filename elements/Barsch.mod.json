@@ -10,7 +10,7 @@
     "name": "see bash",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Urolindustry"
+      "value": "CUSTOM:Fish"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -44,7 +44,7 @@
     "nutritionalValue": 2,
     "saturation": 0.3,
     "eatResultItem": {
-      "value": ""
+      "value": "CUSTOM:Grettne"
     },
     "isMeat": false,
     "isAlwaysEdible": false,

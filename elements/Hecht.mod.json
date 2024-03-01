@@ -3,16 +3,16 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bffdf",
+    "texture": "hecht",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "fried see bass",
+    "name": "Hecht idk the name auf english mussst du amken!!!",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Fish"
     },
-    "stackSize": 64,
+    "stackSize": 32,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
@@ -41,7 +41,7 @@
       "value": "Arrow"
     },
     "isFood": true,
-    "nutritionalValue": 5,
+    "nutritionalValue": 3,
     "saturation": 0.3,
     "eatResultItem": {
       "value": "CUSTOM:Grettne"

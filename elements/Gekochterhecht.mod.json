@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bffdf",
+    "texture": "ffg",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "fried see bass",
+    "name": "fried hecht",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Fish"
@@ -41,10 +41,10 @@
       "value": "Arrow"
     },
     "isFood": true,
-    "nutritionalValue": 5,
+    "nutritionalValue": 7,
     "saturation": 0.3,
     "eatResultItem": {
-      "value": "CUSTOM:Grettne"
+      "value": "CUSTOM:Halfef"
     },
     "isMeat": false,
     "isAlwaysEdible": false,

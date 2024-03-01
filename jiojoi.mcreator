@@ -579,15 +579,114 @@
           "src/main/java/net/mcreator/jiojoi/item/NamnamgekochterbarshItem.java"
         ]
       }
+    },
+    {
+      "name": "Fdsa",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fdsa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/fdsa.json"
+        ]
+      }
+    },
+    {
+      "name": "Hecht",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hecht",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/HechtItem.java",
+          "src/main/resources/assets/jiojoi/models/item/hecht.json"
+        ]
+      }
+    },
+    {
+      "name": "Gekochterhecht",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gekochterhecht",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/gekochterhecht.json",
+          "src/main/java/net/mcreator/jiojoi/item/GekochterhechtItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Halfef",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halfef",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/HalfefItem.java",
+          "src/main/resources/assets/jiojoi/models/item/halfef.json"
+        ]
+      }
+    },
+    {
+      "name": "Grettne",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grettne",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/GrettneItem.java",
+          "src/main/resources/assets/jiojoi/models/item/grettne.json"
+        ]
+      }
+    },
+    {
+      "name": "Dawdaw",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dawdaw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/dawdaw.json",
+          "src/main/java/net/mcreator/jiojoi/item/DawdawItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Profishingrod",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "profishingrod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/profishingrod.json",
+          "src/main/java/net/mcreator/jiojoi/item/ProfishingrodItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.jiojoi.ziegelstabchen": "Brickstick",
       "block.jiojoi.baumwolle": "cotton",
+      "item.jiojoi.ziegelstabchen": "Brickstick",
+      "item.jiojoi.hecht": "Hecht idk the name auf english mussst du amken!!!",
       "block.jiojoi.microplastick": "Microplastick",
+      "item.jiojoi.halfef": "halfeatenhecht",
       "item.minecraft.lingering_potion.effect.basch": "Lingering Potion of Bauchschmerzen",
       "item.jiojoi.taschenlampe": "Flashlight",
       "item.jiojoi.geolterbackfisch": "oiled fried fish",
@@ -600,6 +699,7 @@
       "fluid.jiojoi.urol": "Ur-oil",
       "item.jiojoi.stoff": "silk",
       "item.minecraft.tipped_arrow.effect.basch": "Arrow of Bauchschmerzen",
+      "item.jiojoi.gekochterhecht": "fried hecht",
       "effect.jiojoi.ba": "bauchschmerzen",
       "item.minecraft.potion.effect.basch": "Potion of Bauchschmerzen",
       "item_group.jiojoi.urolindustry": "Urolindustry",
@@ -610,7 +710,10 @@
       "item.jiojoi.dwag": "Dwag",
       "block.jiojoi.urol": "Ur-oil",
       "item.minecraft.splash_potion.effect.basch": "Splash Potion of Bauchschmerzen",
+      "item.jiojoi.dawdaw": "halfeatenhecht",
+      "item.jiojoi.profishingrod": "Profishingrod",
       "death.attack.uroll": "%1$s got to deep into the lagooooon´s",
+      "item.jiojoi.grettne": "fishbones",
       "item.jiojoi.feuerstabchen": "Firestick",
       "item.jiojoi.barsch": "see bash",
       "death.attack.uroll.player": "%1$s died whilst trying to escape %2$s",

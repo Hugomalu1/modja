@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bffdf",
+    "texture": "dad",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "fried see bass",
+    "name": "halfeatenhecht",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Fish"
@@ -41,7 +41,7 @@
       "value": "Arrow"
     },
     "isFood": true,
-    "nutritionalValue": 5,
+    "nutritionalValue": 4,
     "saturation": 0.3,
     "eatResultItem": {
       "value": "CUSTOM:Grettne"
