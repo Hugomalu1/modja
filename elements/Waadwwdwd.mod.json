@@ -55,7 +55,7 @@
       },
       {
         "villagerProfession": {
-          "value": "ARMORER"
+          "value": "FISHERMAN"
         },
         "entries": [
           {
@@ -72,7 +72,7 @@
             },
             "countOffer": 3,
             "level": 1,
-            "maxTrades": 10,
+            "maxTrades": 20,
             "xp": 5,
             "priceMultiplier": 0.05
           }
