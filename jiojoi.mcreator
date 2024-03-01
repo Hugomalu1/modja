@@ -938,12 +938,27 @@
           "src/main/resources/data/jiojoi/recipes/dwwda.json"
         ]
       }
+    },
+    {
+      "name": "Shrimpshell",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrimpshell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/ShrimpshellItem.java",
+          "src/main/resources/assets/jiojoi/models/item/shrimpshell.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.jiojoi.shrimpshell": "Shrimpshell",
       "block.jiojoi.baumwolle": "cotton",
       "item.jiojoi.ziegelstabchen": "Brickstick",
       "item.jiojoi.hecht": "pike",

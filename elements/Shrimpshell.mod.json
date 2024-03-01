@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "steel_ingot",
+    "texture": "dadwdawdwawad",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Steel",
+    "name": "Shrimpshell",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Urolindustry"
+      "value": "CUSTOM:Fish"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -17,6 +17,7 @@ import net.mcreator.jiojoi.item.UrolItem;
 import net.mcreator.jiojoi.item.TaschenlampeItem;
 import net.mcreator.jiojoi.item.StoffItem;
 import net.mcreator.jiojoi.item.SteelIngotItem;
+import net.mcreator.jiojoi.item.ShrimpshellItem;
 import net.mcreator.jiojoi.item.ShrimpItem;
 import net.mcreator.jiojoi.item.PurlpelgulperItem;
 import net.mcreator.jiojoi.item.ProfishingrodItem;
@@ -74,6 +75,7 @@ public class JiojoiModItems {
 	public static final RegistryObject<Item> HARPUNE = REGISTRY.register("harpune", () -> new HarpuneItem());
 	public static final RegistryObject<Item> SHRIMP = REGISTRY.register("shrimp", () -> new ShrimpItem());
 	public static final RegistryObject<Item> FRIEDSHRIMP = REGISTRY.register("friedshrimp", () -> new FriedshrimpItem());
+	public static final RegistryObject<Item> SHRIMPSHELL = REGISTRY.register("shrimpshell", () -> new ShrimpshellItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
