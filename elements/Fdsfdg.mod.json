@@ -1,0 +1,7 @@
+{
+  "_fv": 57,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field></block><block type=\"item_smelting_result\" x=\"744\" y=\"72\"><value name=\"item\"><block type=\"itemstack_to_mcitem\"></block></value></block><block type=\"gui_get_item_inslot\" x=\"348\" y=\"207\"><value name=\"slotid\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block><block type=\"controls_if\" x=\"112\" y=\"279\"><value name=\"IF0\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value><statement name=\"DO0\"><block type=\"gui_remove_items\"><value name=\"amount\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"slotid\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></statement></block><block type=\"block_fluid_to_bucket\" x=\"78\" y=\"357\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\"></field></block></value></block></xml>"
+  }
+}

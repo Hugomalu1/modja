@@ -50,6 +50,7 @@ public class JiojoiModTabs {
 				tabData.accept(JiojoiModItems.PROFISHINGROD.get());
 				tabData.accept(JiojoiModItems.PURLPELGULPER.get());
 				tabData.accept(JiojoiModItems.FRIEDPURPELGULPER.get());
+				tabData.accept(JiojoiModItems.HARPUNE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

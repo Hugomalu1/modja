@@ -855,17 +855,60 @@
           "src/main/resources/data/jiojoi/recipes/steel_ore_smelting.json"
         ]
       }
+    },
+    {
+      "name": "Harpune",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpune",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/harpune.json",
+          "src/main/java/net/mcreator/jiojoi/item/HarpuneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fritose",
+      "type": "gui",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fritose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/world/inventory/FritoseMenu.java",
+          "src/main/java/net/mcreator/jiojoi/client/gui/FritoseScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Fdsfdg",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fdsfdg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/procedures/FdsfdgProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.jiojoi.ziegelstabchen": "Brickstick",
       "block.jiojoi.baumwolle": "cotton",
+      "item.jiojoi.ziegelstabchen": "Brickstick",
       "item.jiojoi.hecht": "pike",
       "block.jiojoi.steel_ore": "Steel Ore",
       "block.jiojoi.microplastick": "Microplastick",
+      "gui.jiojoi.fritose.button_fry": "fry",
       "item.jiojoi.halfef": "half eaten fried pike",
       "item.minecraft.lingering_potion.effect.basch": "Lingering Potion of Bauchschmerzen",
       "item.jiojoi.taschenlampe": "Flashlight",
@@ -886,6 +929,7 @@
       "item.jiojoi.purlpelgulper": "Purlpel gulper",
       "item_group.jiojoi.urolindustry": "Urolindustry",
       "death.attack.uroll.item": "%1$s was killed by %2$s using %3$s",
+      "item.jiojoi.harpune": "Harpune",
       "item.jiojoi.fischstabchen": "Fishstick",
       "item.jiojoi.namnamgekochterbarsh": "fried see bass",
       "item.jiojoi.urol_bucket": "Urol Bucket",

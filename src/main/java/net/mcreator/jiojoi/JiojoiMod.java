@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.jiojoi.init.JiojoiModTabs;
 import net.mcreator.jiojoi.init.JiojoiModPotions;
 import net.mcreator.jiojoi.init.JiojoiModMobEffects;
+import net.mcreator.jiojoi.init.JiojoiModMenus;
 import net.mcreator.jiojoi.init.JiojoiModItems;
 import net.mcreator.jiojoi.init.JiojoiModFluids;
 import net.mcreator.jiojoi.init.JiojoiModFluidTypes;
@@ -64,6 +65,7 @@ public class JiojoiMod {
 		JiojoiModMobEffects.REGISTRY.register(bus);
 		JiojoiModPotions.REGISTRY.register(bus);
 
+		JiojoiModMenus.REGISTRY.register(bus);
 		JiojoiModFluids.REGISTRY.register(bus);
 		JiojoiModFluidTypes.REGISTRY.register(bus);
 	}

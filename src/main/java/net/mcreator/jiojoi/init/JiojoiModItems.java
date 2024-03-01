@@ -24,6 +24,7 @@ import net.mcreator.jiojoi.item.MicroplastickfragmentItem;
 import net.mcreator.jiojoi.item.KohlestabchenItem;
 import net.mcreator.jiojoi.item.KnusperstabchenItem;
 import net.mcreator.jiojoi.item.HechtItem;
+import net.mcreator.jiojoi.item.HarpuneItem;
 import net.mcreator.jiojoi.item.HalfefItem;
 import net.mcreator.jiojoi.item.GrettneItem;
 import net.mcreator.jiojoi.item.GeschmolzenesmicroplastickItem;
@@ -68,6 +69,7 @@ public class JiojoiModItems {
 	public static final RegistryObject<Item> STEEL_ORE = block(JiojoiModBlocks.STEEL_ORE);
 	public static final RegistryObject<Item> STEEL_BLOCK = block(JiojoiModBlocks.STEEL_BLOCK);
 	public static final RegistryObject<Item> STEEL_INGOT = REGISTRY.register("steel_ingot", () -> new SteelIngotItem());
+	public static final RegistryObject<Item> HARPUNE = REGISTRY.register("harpune", () -> new HarpuneItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
