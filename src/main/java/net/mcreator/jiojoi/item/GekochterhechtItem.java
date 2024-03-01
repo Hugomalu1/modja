@@ -11,7 +11,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.jiojoi.init.JiojoiModItems;
+import net.mcreator.jiojoi.init.SurfinbirdModItems;
 
 import java.util.List;
 
@@ -27,7 +27,7 @@ public class GekochterhechtItem extends Item {
 
 	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
-		ItemStack retval = new ItemStack(JiojoiModItems.HALFEF.get());
+		ItemStack retval = new ItemStack(SurfinbirdModItems.HALFEF.get());
 		super.finishUsingItem(itemstack, world, entity);
 		if (itemstack.isEmpty()) {
 			return retval;

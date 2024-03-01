@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "surfinbird:baumwolle"
+    },
+    {
+      "item": "surfinbird:baumwolle"
+    }
+  ],
+  "result": {
+    "item": "surfinbird:stoff",
+    "count": 1
+  }
+}

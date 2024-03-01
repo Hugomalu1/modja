@@ -10,13 +10,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.jiojoi.init.JiojoiModFluids;
+import net.mcreator.jiojoi.init.SurfinbirdModFluids;
 
 import java.util.List;
 
 public class UrolItem extends BucketItem {
 	public UrolItem() {
-		super(JiojoiModFluids.UROL, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).rarity(Rarity.COMMON));
+		super(SurfinbirdModFluids.UROL, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "surfinbird:backfisch"
+    },
+    {
+      "item": "surfinbird:urol_bucket"
+    }
+  ],
+  "result": {
+    "item": "surfinbird:geolterbackfisch",
+    "count": 1
+  }
+}

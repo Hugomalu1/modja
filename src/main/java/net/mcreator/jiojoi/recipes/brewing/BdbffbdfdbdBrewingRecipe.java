@@ -13,8 +13,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.jiojoi.init.JiojoiModPotions;
-import net.mcreator.jiojoi.init.JiojoiModItems;
+import net.mcreator.jiojoi.init.SurfinbirdModPotions;
+import net.mcreator.jiojoi.init.SurfinbirdModItems;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BdbffbdfdbdBrewingRecipe implements IBrewingRecipe {
@@ -26,18 +26,18 @@ public class BdbffbdfdbdBrewingRecipe implements IBrewingRecipe {
 	@Override
 	public boolean isInput(ItemStack input) {
 		Item inputItem = input.getItem();
-		return (inputItem == Items.POTION || inputItem == Items.SPLASH_POTION || inputItem == Items.LINGERING_POTION) && PotionUtils.getPotion(input) == JiojoiModPotions.BASCH.get();
+		return (inputItem == Items.POTION || inputItem == Items.SPLASH_POTION || inputItem == Items.LINGERING_POTION) && PotionUtils.getPotion(input) == SurfinbirdModPotions.BASCH.get();
 	}
 
 	@Override
 	public boolean isIngredient(ItemStack ingredient) {
-		return Ingredient.of(new ItemStack(JiojoiModItems.GESCHMOLZENESMICROPLASTICK.get())).test(ingredient);
+		return Ingredient.of(new ItemStack(SurfinbirdModItems.GESCHMOLZENESMICROPLASTICK.get())).test(ingredient);
 	}
 
 	@Override
 	public ItemStack getOutput(ItemStack input, ItemStack ingredient) {
 		if (isInput(input) && isIngredient(ingredient)) {
-			return new ItemStack(JiojoiModItems.GESCHMOLZENESMICROPLASTICK.get());
+			return new ItemStack(SurfinbirdModItems.GESCHMOLZENESMICROPLASTICK.get());
 		}
 		return ItemStack.EMPTY;
 	}

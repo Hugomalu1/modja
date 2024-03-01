@@ -33,7 +33,7 @@ public class FritoseScreen extends AbstractContainerScreen<FritoseMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("jiojoi:textures/screens/fritose.png");
+	private static final ResourceLocation texture = new ResourceLocation("surfinbird:textures/screens/fritose.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -77,7 +77,7 @@ public class FritoseScreen extends AbstractContainerScreen<FritoseMenu> {
 	@Override
 	public void init() {
 		super.init();
-		button_fry = Button.builder(Component.translatable("gui.jiojoi.fritose.button_fry"), e -> {
+		button_fry = Button.builder(Component.translatable("gui.surfinbird.fritose.button_fry"), e -> {
 		}).bounds(this.leftPos + 41, this.topPos + 40, 40, 20).build();
 		guistate.put("button:button_fry", button_fry);
 		this.addRenderableWidget(button_fry);

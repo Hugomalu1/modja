@@ -12,7 +12,7 @@ import java.util.List;
 
 public class SunglassesItem extends Item {
 	public SunglassesItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.RARE));
 	}
 
 	@Override

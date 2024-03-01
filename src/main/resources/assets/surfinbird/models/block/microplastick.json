@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surfinbird:block/micro",
+    "up": "surfinbird:block/micro",
+    "north": "surfinbird:block/micro",
+    "east": "surfinbird:block/micro",
+    "south": "surfinbird:block/micro",
+    "west": "surfinbird:block/micro",
+    "particle": "surfinbird:block/micro"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "surfinbird:geschmolzenesmicroplastick"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "result": {
+    "item": "surfinbird:bluemeltedmicroplastick",
+    "count": 1
+  }
+}

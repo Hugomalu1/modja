@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "jiojoi:block/rtegdfggfd",
-    "particle": "jiojoi:block/dad"
-  },
-  "render_type": "cutout"
-}

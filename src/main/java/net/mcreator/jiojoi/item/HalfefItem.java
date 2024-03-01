@@ -11,7 +11,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.jiojoi.init.JiojoiModItems;
+import net.mcreator.jiojoi.init.SurfinbirdModItems;
 
 import java.util.List;
 
@@ -27,7 +27,7 @@ public class HalfefItem extends Item {
 
 	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
-		ItemStack retval = new ItemStack(JiojoiModItems.GRETTNE.get());
+		ItemStack retval = new ItemStack(SurfinbirdModItems.GRETTNE.get());
 		super.finishUsingItem(itemstack, world, entity);
 		if (itemstack.isEmpty()) {
 			return retval;

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "surfinbird:block/steel_ore",
+    "particle": "surfinbird:block/steel_ore"
+  },
+  "render_type": "solid"
+}

@@ -8,14 +8,14 @@ import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.LiquidBlock;
 
-import net.mcreator.jiojoi.init.JiojoiModItems;
-import net.mcreator.jiojoi.init.JiojoiModFluids;
-import net.mcreator.jiojoi.init.JiojoiModFluidTypes;
-import net.mcreator.jiojoi.init.JiojoiModBlocks;
+import net.mcreator.jiojoi.init.SurfinbirdModItems;
+import net.mcreator.jiojoi.init.SurfinbirdModFluids;
+import net.mcreator.jiojoi.init.SurfinbirdModFluidTypes;
+import net.mcreator.jiojoi.init.SurfinbirdModBlocks;
 
 public abstract class UrolFluid extends ForgeFlowingFluid {
-	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> JiojoiModFluidTypes.UROL_TYPE.get(), () -> JiojoiModFluids.UROL.get(), () -> JiojoiModFluids.FLOWING_UROL.get()).explosionResistance(100f)
-			.tickRate(1).bucket(() -> JiojoiModItems.UROL_BUCKET.get()).block(() -> (LiquidBlock) JiojoiModBlocks.UROL.get());
+	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> SurfinbirdModFluidTypes.UROL_TYPE.get(), () -> SurfinbirdModFluids.UROL.get(), () -> SurfinbirdModFluids.FLOWING_UROL.get())
+			.explosionResistance(100f).tickRate(1).bucket(() -> SurfinbirdModItems.UROL_BUCKET.get()).block(() -> (LiquidBlock) SurfinbirdModBlocks.UROL.get());
 
 	private UrolFluid() {
 		super(PROPERTIES);

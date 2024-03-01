@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "surfinbird:stoff"
+    },
+    {
+      "item": "surfinbird:stoff"
+    },
+    {
+      "item": "surfinbird:stoff"
+    },
+    {
+      "item": "surfinbird:stoff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_wool",
+    "count": 1
+  }
+}

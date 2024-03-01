@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "jiojoi:microplastick",
-    "jiojoi:steel_ore",
-    "jiojoi:steel_block"
+    "surfinbird:microplastick",
+    "surfinbird:steel_ore",
+    "surfinbird:steel_block"
   ]
 }

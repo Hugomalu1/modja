@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "surfinbird:goldchain"
+    },
+    "b": {
+      "item": "surfinbird:sunglasses"
+    },
+    "c": {
+      "item": "surfinbird:turtel"
+    },
+    "d": {
+      "item": "surfinbird:dipar"
+    },
+    "e": {
+      "item": "surfinbird:dwag"
+    }
+  },
+  "result": {
+    "item": "surfinbird:z_zzzzzaaaah_turtel",
+    "count": 1
+  }
+}

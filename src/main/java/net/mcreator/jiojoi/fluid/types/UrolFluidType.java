@@ -19,7 +19,7 @@ public class UrolFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("jiojoi:block/urol"), FLOWING_TEXTURE = new ResourceLocation("jiojoi:block/urolfl");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("surfinbird:block/urol"), FLOWING_TEXTURE = new ResourceLocation("surfinbird:block/urolfl");
 
 			@Override
 			public ResourceLocation getStillTexture() {

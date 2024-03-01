@@ -15,7 +15,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.jiojoi.init.JiojoiModItems;
+import net.mcreator.jiojoi.init.SurfinbirdModItems;
 
 import java.util.List;
 import java.util.Collections;
@@ -47,6 +47,6 @@ public class SteelOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(JiojoiModItems.STEEL_INGOT.get()));
+		return Collections.singletonList(new ItemStack(SurfinbirdModItems.STEEL_INGOT.get()));
 	}
 }

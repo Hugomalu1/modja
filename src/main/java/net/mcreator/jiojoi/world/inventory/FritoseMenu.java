@@ -19,7 +19,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.jiojoi.init.JiojoiModMenus;
+import net.mcreator.jiojoi.init.SurfinbirdModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -39,7 +39,7 @@ public class FritoseMenu extends AbstractContainerMenu implements Supplier<Map<I
 	private BlockEntity boundBlockEntity = null;
 
 	public FritoseMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(JiojoiModMenus.FRITOSE.get(), id);
+		super(SurfinbirdModMenus.FRITOSE.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(9);

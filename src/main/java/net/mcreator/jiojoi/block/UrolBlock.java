@@ -9,10 +9,11 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.LiquidBlock;
 
-import net.mcreator.jiojoi.init.JiojoiModFluids;
+import net.mcreator.jiojoi.init.SurfinbirdModFluids;
 
 public class UrolBlock extends LiquidBlock {
 	public UrolBlock() {
-		super(() -> JiojoiModFluids.UROL.get(), BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(100f).lightLevel(s -> 3).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(() -> SurfinbirdModFluids.UROL.get(),
+				BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(100f).lightLevel(s -> 3).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 }

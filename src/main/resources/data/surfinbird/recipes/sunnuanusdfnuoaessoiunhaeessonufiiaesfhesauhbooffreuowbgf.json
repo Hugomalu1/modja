@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:tinted_glass"
+    },
+    "b": {
+      "item": "surfinbird:blackmeltedmicroplastick"
+    }
+  },
+  "result": {
+    "item": "surfinbird:sunglasses",
+    "count": 1
+  }
+}

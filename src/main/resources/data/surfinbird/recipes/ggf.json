@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "surfinbird:microplastickfragment"
+    },
+    "b": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result": {
+    "item": "surfinbird:microplastick",
+    "count": 1
+  }
+}

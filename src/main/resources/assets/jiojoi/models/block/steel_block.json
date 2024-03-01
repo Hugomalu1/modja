@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "jiojoi:block/sare",
-    "particle": "jiojoi:block/sare"
-  },
-  "render_type": "solid"
-}

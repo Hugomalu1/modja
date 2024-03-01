@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "surfinbird:microplastick"
+    }
+  ],
+  "result": {
+    "item": "surfinbird:microplastickfragment",
+    "count": 8
+  }
+}

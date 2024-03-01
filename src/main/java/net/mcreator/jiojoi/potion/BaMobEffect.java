@@ -11,7 +11,7 @@ public class BaMobEffect extends MobEffect {
 
 	@Override
 	public String getDescriptionId() {
-		return "effect.jiojoi.ba";
+		return "effect.surfinbird.ba";
 	}
 
 	@Override

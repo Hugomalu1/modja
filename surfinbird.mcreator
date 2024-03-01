@@ -1,0 +1,1340 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hh",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/procedures/HhProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rfrf",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rfrf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/procedures/RfrfProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Dwag",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dwag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/dwag.json",
+          "src/main/java/net/mcreator/jiojoi/item/DwagItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Urol",
+      "type": "fluid",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/block/urol.json",
+          "src/main/java/net/mcreator/jiojoi/item/UrolItem.java",
+          "src/main/resources/assets/surfinbird/blockstates/urol.json",
+          "src/main/java/net/mcreator/jiojoi/fluid/types/UrolFluidType.java",
+          "src/main/java/net/mcreator/jiojoi/fluid/UrolFluid.java",
+          "src/main/resources/assets/surfinbird/models/item/urol_bucket.json",
+          "src/main/java/net/mcreator/jiojoi/block/UrolBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Urolindustry",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urolindustry",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Backfisch",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backfisch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/backfisch.json",
+          "src/main/java/net/mcreator/jiojoi/item/BackfischItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Geolterbackfisch",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geolterbackfisch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/GeolterbackfischItem.java",
+          "src/main/resources/assets/surfinbird/models/item/geolterbackfisch.json"
+        ]
+      }
+    },
+    {
+      "name": "Fischstabchen",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fischstabchen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/fischstabchen.json",
+          "src/main/java/net/mcreator/jiojoi/item/FischstabchenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Knusperstabchen",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knusperstabchen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/knusperstabchen.json",
+          "src/main/java/net/mcreator/jiojoi/item/KnusperstabchenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ziegelstabchen",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ziegelstabchen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/ziegelstabchen.json",
+          "src/main/java/net/mcreator/jiojoi/item/ZiegelstabchenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Kohlestabchen",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kohlestabchen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/kohlestabchen.json",
+          "src/main/java/net/mcreator/jiojoi/item/KohlestabchenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Feuerstabchen",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feuerstabchen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/FeuerstabchenItem.java",
+          "src/main/resources/assets/surfinbird/models/item/feuerstabchen.json"
+        ]
+      }
+    },
+    {
+      "name": "Fiiii",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fiiii",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/fiiii.json"
+        ]
+      }
+    },
+    {
+      "name": "RrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrR",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr_r.json"
+        ]
+      }
+    },
+    {
+      "name": "Ffddffdfdfdfdfd",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ffddffdfdfdfdfd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/ffddffdfdfdfdfd.json"
+        ]
+      }
+    },
+    {
+      "name": "Rerererrrerereerreer",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rerererrrerereerreer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/rerererrrerereerreer.json"
+        ]
+      }
+    },
+    {
+      "name": "Gvcfgdfdgdfg",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gvcfgdfdgdfg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/gvcfgdfdgdfg.json"
+        ]
+      }
+    },
+    {
+      "name": "Fgddfdfgfgdfgdfgd",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fgddfdfgfgdfgdfgd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/fgddfdfgfgdfgdfgd.json"
+        ]
+      }
+    },
+    {
+      "name": "Ereewrwrwer",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ereewrwrwer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/ereewrwrwer.json"
+        ]
+      }
+    },
+    {
+      "name": "Microplastick",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microplastick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/block/MicroplastickBlock.java",
+          "src/main/resources/assets/surfinbird/models/block/microplastick.json",
+          "src/main/resources/assets/surfinbird/blockstates/microplastick.json",
+          "src/main/resources/assets/surfinbird/models/item/microplastick.json"
+        ]
+      }
+    },
+    {
+      "name": "Microplastickfragment",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microplastickfragment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/MicroplastickfragmentItem.java",
+          "src/main/resources/assets/surfinbird/models/item/microplastickfragment.json"
+        ]
+      }
+    },
+    {
+      "name": "Dsadsa",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsadsa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/dsadsa.json"
+        ]
+      }
+    },
+    {
+      "name": "Microblock",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/microblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Ggf",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ggf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/ggf.json"
+        ]
+      }
+    },
+    {
+      "name": "Geschmolzenesmicroplastick",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geschmolzenesmicroplastick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/GeschmolzenesmicroplastickItem.java",
+          "src/main/resources/assets/surfinbird/models/item/geschmolzenesmicroplastick.json"
+        ]
+      }
+    },
+    {
+      "name": "Ba",
+      "type": "potioneffect",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ba",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/potion/BaMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Bbdggbfgdfgdfdg",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bbdggbfgdfgdfdg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/bbdggbfgdfgdfdg.json"
+        ]
+      }
+    },
+    {
+      "name": "Basch",
+      "type": "potion",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basch",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Bdbffbdfdbd",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bdbffbdfdbd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/recipes/brewing/BdbffbdfdbdBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Idk",
+      "type": "itemextension",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/extension/IdkItemExtension.java"
+        ]
+      }
+    },
+    {
+      "name": "Uuuu",
+      "type": "villagertrade",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uuuu",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Uroll",
+      "type": "damagetype",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uroll",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/damage_type/uroll.json"
+        ]
+      }
+    },
+    {
+      "name": "Baumwolle",
+      "type": "plant",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baumwolle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/block/baumwolle.json",
+          "src/main/resources/assets/surfinbird/blockstates/baumwolle.json",
+          "src/main/java/net/mcreator/jiojoi/block/BaumwolleBlock.java",
+          "src/main/resources/assets/surfinbird/models/item/baumwolle.json"
+        ]
+      }
+    },
+    {
+      "name": "Stoff",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/StoffItem.java",
+          "src/main/resources/assets/surfinbird/models/item/stoff.json"
+        ]
+      }
+    },
+    {
+      "name": "Assa",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/assa.json"
+        ]
+      }
+    },
+    {
+      "name": "Rewdsfd",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rewdsfd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/rewdsfd.json"
+        ]
+      }
+    },
+    {
+      "name": "Deadforest",
+      "type": "biome",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/worldgen/configured_feature/deadforest_tree.json",
+          "src/main/java/net/mcreator/jiojoi/world/features/treedecorators/DeadforestTrunkDecorator.java",
+          "src/main/resources/data/surfinbird/worldgen/biome/deadforest.json",
+          "src/main/java/net/mcreator/jiojoi/world/features/treedecorators/DeadforestFruitDecorator.java",
+          "src/main/resources/data/surfinbird/worldgen/placed_feature/deadforest_tree.json",
+          "src/main/java/net/mcreator/jiojoi/world/features/treedecorators/DeadforestLeaveDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "Taschenlampe",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taschenlampe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/TaschenlampeItem.java",
+          "src/main/resources/assets/surfinbird/models/item/taschenlampe.json"
+        ]
+      }
+    },
+    {
+      "name": "Defs",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/defs.json"
+        ]
+      }
+    },
+    {
+      "name": "Barsch",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barsch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/barsch.json",
+          "src/main/java/net/mcreator/jiojoi/item/BarschItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fish",
+      "type": "tab",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Namnamgekochterbarsh",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namnamgekochterbarsh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/NamnamgekochterbarshItem.java",
+          "src/main/resources/assets/surfinbird/models/item/namnamgekochterbarsh.json"
+        ]
+      }
+    },
+    {
+      "name": "Fdsa",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fdsa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/fdsa.json"
+        ]
+      }
+    },
+    {
+      "name": "Hecht",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hecht",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/hecht.json",
+          "src/main/java/net/mcreator/jiojoi/item/HechtItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Gekochterhecht",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gekochterhecht",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/gekochterhecht.json",
+          "src/main/java/net/mcreator/jiojoi/item/GekochterhechtItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Halfef",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halfef",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/HalfefItem.java",
+          "src/main/resources/assets/surfinbird/models/item/halfef.json"
+        ]
+      }
+    },
+    {
+      "name": "Grettne",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grettne",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/GrettneItem.java",
+          "src/main/resources/assets/surfinbird/models/item/grettne.json"
+        ]
+      }
+    },
+    {
+      "name": "Dawdaw",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dawdaw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/DawdawItem.java",
+          "src/main/resources/assets/surfinbird/models/item/dawdaw.json"
+        ]
+      }
+    },
+    {
+      "name": "Profishingrod",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "profishingrod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/ProfishingrodItem.java",
+          "src/main/resources/assets/surfinbird/models/item/profishingrod.json"
+        ]
+      }
+    },
+    {
+      "name": "Waadwwdwd",
+      "type": "villagertrade",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waadwwdwd",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Kjkjofgr",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kjkjofgr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/kjkjofgr.json"
+        ]
+      }
+    },
+    {
+      "name": "Purlpelgulper",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purlpelgulper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/PurlpelgulperItem.java",
+          "src/main/resources/assets/surfinbird/models/item/purlpelgulper.json"
+        ]
+      }
+    },
+    {
+      "name": "Friedpurpelgulper",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friedpurpelgulper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/friedpurpelgulper.json",
+          "src/main/java/net/mcreator/jiojoi/item/FriedpurpelgulperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Trge",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/trge.json"
+        ]
+      }
+    },
+    {
+      "name": "Fhg",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fhg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/fhg.json"
+        ]
+      }
+    },
+    {
+      "name": "Fds",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/fds.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/SteelIngotItem.java",
+          "src/main/resources/assets/surfinbird/models/item/steel_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelOre",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/worldgen/configured_feature/steel_ore.json",
+          "src/main/resources/data/surfinbird/forge/biome_modifier/steel_ore_biome_modifier.json",
+          "src/main/resources/assets/surfinbird/models/item/steel_ore.json",
+          "src/main/resources/data/surfinbird/worldgen/placed_feature/steel_ore.json",
+          "src/main/resources/assets/surfinbird/models/block/steel_ore.json",
+          "src/main/resources/assets/surfinbird/blockstates/steel_ore.json",
+          "src/main/java/net/mcreator/jiojoi/block/SteelOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/block/SteelBlockBlock.java",
+          "src/main/resources/assets/surfinbird/models/item/steel_block.json",
+          "src/main/resources/assets/surfinbird/blockstates/steel_block.json",
+          "src/main/resources/assets/surfinbird/models/block/steel_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/steel_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/steel_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelOreSmelting",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/steel_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Harpune",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpune",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/harpune.json",
+          "src/main/java/net/mcreator/jiojoi/item/HarpuneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fritose",
+      "type": "gui",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fritose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/world/inventory/FritoseMenu.java",
+          "src/main/java/net/mcreator/jiojoi/client/gui/FritoseScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Fdsfdg",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fdsfdg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/procedures/FdsfdgProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Shrimp",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrimp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/shrimp.json",
+          "src/main/java/net/mcreator/jiojoi/item/ShrimpItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Friedshrimp",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friedshrimp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/friedshrimp.json",
+          "src/main/java/net/mcreator/jiojoi/item/FriedshrimpItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dwwda",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dwwda",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/dwwda.json"
+        ]
+      }
+    },
+    {
+      "name": "Shrimpshell",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrimpshell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/shrimpshell.json",
+          "src/main/java/net/mcreator/jiojoi/item/ShrimpshellItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cyxvdffddfd",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyxvdffddfd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/cyxvdffddfd.json"
+        ]
+      }
+    },
+    {
+      "name": "Wawdwdwddwwdadwdwdaw",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wawdwdwddwwdadwdwdaw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/wawdwdwddwwdadwdwdaw.json"
+        ]
+      }
+    },
+    {
+      "name": "Turtel",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/TurtelItem.java",
+          "src/main/resources/assets/surfinbird/models/item/turtel.json"
+        ]
+      }
+    },
+    {
+      "name": "ZZzzzzaaaahTURTEL",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z_zzzzzaaaah_turtel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/z_zzzzzaaaah_turtel.json",
+          "src/main/java/net/mcreator/jiojoi/item/ZZzzzzaaaahTURTELItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sunglasses",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunglasses",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/SunglassesItem.java",
+          "src/main/resources/assets/surfinbird/models/item/sunglasses.json"
+        ]
+      }
+    },
+    {
+      "name": "Blackmeltedmicroplastick",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackmeltedmicroplastick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/BlackmeltedmicroplastickItem.java",
+          "src/main/resources/assets/surfinbird/models/item/blackmeltedmicroplastick.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluemeltedmicroplastick",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluemeltedmicroplastick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/BluemeltedmicroplastickItem.java",
+          "src/main/resources/assets/surfinbird/models/item/bluemeltedmicroplastick.json"
+        ]
+      }
+    },
+    {
+      "name": "Redmeltedmicroplastick",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redmeltedmicroplastick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/redmeltedmicroplastick.json",
+          "src/main/java/net/mcreator/jiojoi/item/RedmeltedmicroplastickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SunnuanusdfnuoaessoiunhaeessonufiiaesfhesauhbooffreuowbibgzsgffuigbzpsrougfsROUPIGHIARRSOUPTGHITFGF",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunnuanusdfnuoaessoiunhaeessonufiiaesfhesauhbooffreuowbibgzsgffuigbzpsrougfs_roupighiarrsouptghitfgf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/sunnuanusdfnuoaessoiunhaeessonufiiaesfhesauhbooffreuowbgf.json"
+        ]
+      }
+    },
+    {
+      "name": "Izuh",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "izuh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/izuh.json"
+        ]
+      }
+    },
+    {
+      "name": "Khv",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "khv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/khv.json"
+        ]
+      }
+    },
+    {
+      "name": "Gzuhiljkhgghjklhgjkblhjkghjgkl",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gzuhiljkhgghjklhgjkblhjkghjgkl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/gzuhiljkhgghjklhgjkblhjkghjgkl.json"
+        ]
+      }
+    },
+    {
+      "name": "Pooljmkmljkoljkhlhjkojkolhkioh",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pooljmkmljkoljkhlhjkojkolhkioh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/pooljmkmljkoljkhlhjkojkolhkioh.json"
+        ]
+      }
+    },
+    {
+      "name": "Ugztfizuhgiouhoiuh",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ugztfizuhgiouhoiuh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/ugztfizuhgiouhoiuh.json"
+        ]
+      }
+    },
+    {
+      "name": "Uhjb",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uhjb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/uhjb.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldchain",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldchain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/GoldchainItem.java",
+          "src/main/resources/assets/surfinbird/models/item/goldchain.json"
+        ]
+      }
+    },
+    {
+      "name": "Ccacacasdasd",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccacacasdasd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/ccacacasdasd.json"
+        ]
+      }
+    },
+    {
+      "name": "Dipar",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dipar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/surfinbird/models/item/dipar.json",
+          "src/main/java/net/mcreator/jiojoi/item/DiparItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Zaaaaaah",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zaaaaaah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/zaaaaaah.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.surfinbird.shrimpshell": "Shrimpshell",
+      "item.surfinbird.blackmeltedmicroplastick": "Blackmeltedmicroplastick",
+      "item.surfinbird.friedshrimp": "Friedshrimp",
+      "item.jiojoi.turtel": "Turtel",
+      "block.jiojoi.microplastick": "Microplastick",
+      "item.surfinbird.purlpelgulper": "Purlpel gulper",
+      "item.jiojoi.z_zzzzzaaaah_turtel": "ZZzzzzaaaah   TURTEL !!!",
+      "item.surfinbird.geolterbackfisch": "oiled fried fish",
+      "item.jiojoi.friedpurpelgulper": "Friedpurpelgulper",
+      "item.jiojoi.kohlestabchen": "Kohlestabchen",
+      "item_group.jiojoi.fish": "Fish",
+      "item.jiojoi.backfisch": "fried fish",
+      "item.surfinbird.microplastickfragment": "Microplastickfragments",
+      "fluid.jiojoi.urol": "Ur-oil",
+      "item.jiojoi.redmeltedmicroplastick": "Redmeltedmicroplastick",
+      "item.jiojoi.gekochterhecht": "fried pike",
+      "item.surfinbird.z_zzzzzaaaah_turtel": "ZZzzzzaaaah   TURTEL !!!",
+      "item_group.jiojoi.urolindustry": "Urolindustry",
+      "item.jiojoi.harpune": "Harpune",
+      "item.surfinbird.stoff": "silk",
+      "item.jiojoi.shrimp": "Shrimp",
+      "item.minecraft.splash_potion.effect.basch": "Splash Potion of Bauchschmerzen",
+      "item.surfinbird.hecht": "pike",
+      "item.jiojoi.grettne": "fishbones",
+      "death.attack.uroll.player": "%1$s died whilst trying to escape %2$s",
+      "item.jiojoi.blackmeltedmicroplastick": "Blackmeltedmicroplastick",
+      "block.jiojoi.baumwolle": "cotton",
+      "item.surfinbird.fischstabchen": "Fishstick",
+      "item.jiojoi.halfef": "half eaten fried pike",
+      "item.jiojoi.friedshrimp": "Friedshrimp",
+      "item.surfinbird.dawdaw": "half eaten pike",
+      "item.surfinbird.goldchain": "Goldchain",
+      "item.jiojoi.knusperstabchen": "Crispystick",
+      "item.surfinbird.profishingrod": "Profishingrod",
+      "item.jiojoi.stoff": "silk",
+      "item.minecraft.tipped_arrow.effect.basch": "Arrow of Bauchschmerzen",
+      "item.minecraft.potion.effect.basch": "Potion of Bauchschmerzen",
+      "item.surfinbird.dwag": "Dwag",
+      "item.jiojoi.bluemeltedmicroplastick": "Bluemeltedmicroplastick",
+      "item.surfinbird.barsch": "see bash",
+      "item.surfinbird.kohlestabchen": "Kohlestabchen",
+      "item.surfinbird.taschenlampe": "Flashlight",
+      "item.surfinbird.halfef": "half eaten fried pike",
+      "item.jiojoi.fischstabchen": "Fishstick",
+      "biome.surfinbird.deadforest": "Deadforest",
+      "item.jiojoi.dwag": "Dwag",
+      "item.surfinbird.redmeltedmicroplastick": "Redmeltedmicroplastick",
+      "gui.surfinbird.fritose.button_fry": "fry",
+      "item.jiojoi.dawdaw": "half eaten pike",
+      "block.surfinbird.baumwolle": "cotton",
+      "block.surfinbird.steel_block": "Block of Steel",
+      "death.attack.uroll": "%1$s got to deep into the lagooooon´s",
+      "item.jiojoi.barsch": "see bash",
+      "block.jiojoi.steel_block": "Block of Steel",
+      "item.jiojoi.microplastickfragment": "Microplastickfragments",
+      "item.surfinbird.backfisch": "fried fish",
+      "item.surfinbird.turtel": "Turtel",
+      "item.jiojoi.hecht": "pike",
+      "gui.jiojoi.fritose.button_fry": "fry",
+      "item.surfinbird.geschmolzenesmicroplastick": "meltedmicroplastick",
+      "item.surfinbird.shrimp": "Shrimp",
+      "item.surfinbird.ziegelstabchen": "Brickstick",
+      "item.surfinbird.harpune": "Harpune",
+      "fluid.surfinbird.urol": "Ur-oil",
+      "effect.surfinbird.ba": "bauchschmerzen",
+      "biome.jiojoi.deadforest": "Deadforest",
+      "item.jiojoi.sunglasses": "Sunglasses",
+      "item.surfinbird.grettne": "fishbones",
+      "item.surfinbird.bluemeltedmicroplastick": "Bluemeltedmicroplastick",
+      "item.surfinbird.dipar": "Dipar",
+      "item.jiojoi.geschmolzenesmicroplastick": "meltedmicroplastick",
+      "item_group.surfinbird.fish": "Fish",
+      "item.surfinbird.knusperstabchen": "Crispystick",
+      "item.jiojoi.purlpelgulper": "Purlpel gulper",
+      "block.surfinbird.urol": "Ur-oil",
+      "item.jiojoi.namnamgekochterbarsh": "fried see bass",
+      "block.surfinbird.microplastick": "Microplastick",
+      "item.jiojoi.profishingrod": "Profishingrod",
+      "item.jiojoi.steel_ingot": "Steel",
+      "item.jiojoi.shrimpshell": "Shrimpshell",
+      "item.jiojoi.ziegelstabchen": "Brickstick",
+      "block.jiojoi.steel_ore": "Steel Ore",
+      "item.surfinbird.gekochterhecht": "fried pike",
+      "block.surfinbird.steel_ore": "Steel Ore",
+      "item.minecraft.lingering_potion.effect.basch": "Lingering Potion of Bauchschmerzen",
+      "item.surfinbird.urol_bucket": "Urol Bucket",
+      "item.jiojoi.taschenlampe": "Flashlight",
+      "item.jiojoi.geolterbackfisch": "oiled fried fish",
+      "item.surfinbird.friedpurpelgulper": "Friedpurpelgulper",
+      "item.surfinbird.feuerstabchen": "Firestick",
+      "effect.jiojoi.ba": "bauchschmerzen",
+      "item.surfinbird.namnamgekochterbarsh": "fried see bass",
+      "item.surfinbird.sunglasses": "Sunglasses",
+      "death.attack.uroll.item": "%1$s was killed by %2$s using %3$s",
+      "item.jiojoi.urol_bucket": "Urol Bucket",
+      "item.surfinbird.steel_ingot": "Steel",
+      "block.jiojoi.urol": "Ur-oil",
+      "item_group.surfinbird.urolindustry": "Urolindustry",
+      "item.jiojoi.feuerstabchen": "Firestick"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "surfinbird",
+    "modName": "surfinbird",
+    "version": "2.4.2",
+    "author": "Markus, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.jiojoi",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
