@@ -38,5 +38,10 @@ public class JiojoiModTrades {
 		if (event.getType() == VillagerProfession.FISHERMAN) {
 			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(Items.GLOWSTONE_DUST, 5), new ItemStack(JiojoiModItems.PURLPELGULPER.get()), 10, 5, 0.05f));
 		}
+		if (event.getType() == VillagerProfession.FISHERMAN) {
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 12),
+
+					new ItemStack(JiojoiModItems.SHRIMP.get(), 6), 10, 5, 0.05f));
+		}
 	}
 }

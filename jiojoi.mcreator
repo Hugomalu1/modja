@@ -897,6 +897,47 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "Shrimp",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrimp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/shrimp.json",
+          "src/main/java/net/mcreator/jiojoi/item/ShrimpItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Friedshrimp",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friedshrimp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/friedshrimp.json",
+          "src/main/java/net/mcreator/jiojoi/item/FriedshrimpItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dwwda",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dwwda",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/dwwda.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -910,6 +951,7 @@
       "block.jiojoi.microplastick": "Microplastick",
       "gui.jiojoi.fritose.button_fry": "fry",
       "item.jiojoi.halfef": "half eaten fried pike",
+      "item.jiojoi.friedshrimp": "Friedshrimp",
       "item.minecraft.lingering_potion.effect.basch": "Lingering Potion of Bauchschmerzen",
       "item.jiojoi.taschenlampe": "Flashlight",
       "item.jiojoi.geolterbackfisch": "oiled fried fish",
@@ -931,6 +973,7 @@
       "death.attack.uroll.item": "%1$s was killed by %2$s using %3$s",
       "item.jiojoi.harpune": "Harpune",
       "item.jiojoi.fischstabchen": "Fishstick",
+      "item.jiojoi.shrimp": "Shrimp",
       "item.jiojoi.namnamgekochterbarsh": "fried see bass",
       "item.jiojoi.urol_bucket": "Urol Bucket",
       "item.jiojoi.dwag": "Dwag",

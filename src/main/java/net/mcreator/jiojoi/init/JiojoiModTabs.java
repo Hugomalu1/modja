@@ -37,6 +37,8 @@ public class JiojoiModTabs {
 				tabData.accept(JiojoiModBlocks.BAUMWOLLE.get().asItem());
 				tabData.accept(JiojoiModItems.STOFF.get());
 				tabData.accept(JiojoiModItems.TASCHENLAMPE.get());
+				tabData.accept(JiojoiModItems.SHRIMP.get());
+				tabData.accept(JiojoiModItems.FRIEDSHRIMP.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> FISH = REGISTRY.register("fish",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jiojoi.fish")).icon(() -> new ItemStack(JiojoiModItems.BARSCH.get())).displayItems((parameters, tabData) -> {
