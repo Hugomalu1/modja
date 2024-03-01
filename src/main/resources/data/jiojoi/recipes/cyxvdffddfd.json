@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jiojoi:grettne"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bone_meal",
+    "count": 2
+  }
+}
