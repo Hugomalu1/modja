@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "surfinbird:profishingrod"
+    },
+    "b": {
+      "item": "surfinbird:stoff"
+    },
+    "c": {
+      "item": "surfinbird:backfisch"
+    }
+  },
+  "result": {
+    "item": "surfinbird:dwag",
+    "count": 1
+  }
+}

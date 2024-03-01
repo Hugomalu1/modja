@@ -1207,6 +1207,32 @@
           "src/main/resources/data/surfinbird/recipes/zaaaaaah.json"
         ]
       }
+    },
+    {
+      "name": "DAWGG",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dawgg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/dawgg.json"
+        ]
+      }
+    },
+    {
+      "name": "FGSYD",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fgsyd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/surfinbird/recipes/fgsyd.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

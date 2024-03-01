@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "surfinbird:stoff"
+    }
+  },
+  "result": {
+    "item": "surfinbird:dipar",
+    "count": 1
+  }
+}
