@@ -676,14 +676,25 @@
           "src/main/java/net/mcreator/jiojoi/item/ProfishingrodItem.java"
         ]
       }
+    },
+    {
+      "name": "Waadwwdwd",
+      "type": "villagertrade",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waadwwdwd",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.jiojoi.baumwolle": "cotton",
       "item.jiojoi.ziegelstabchen": "Brickstick",
+      "block.jiojoi.baumwolle": "cotton",
       "item.jiojoi.hecht": "Hecht idk the name auf english mussst du amken!!!",
       "block.jiojoi.microplastick": "Microplastick",
       "item.jiojoi.halfef": "halfeatenhecht",

@@ -20,5 +20,20 @@ public class JiojoiModTrades {
 		if (event.getType() == VillagerProfession.LEATHERWORKER) {
 			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD, 4), new ItemStack(Items.BUCKET), new ItemStack(JiojoiModItems.UROL_BUCKET.get()), 20, 15, 1f));
 		}
+		if (event.getType() == VillagerProfession.FISHERMAN) {
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD, 6),
+
+					new ItemStack(JiojoiModItems.BARSCH.get(), 3), 10, 5, 0.05f));
+		}
+		if (event.getType() == VillagerProfession.FISHERMAN) {
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 12),
+
+					new ItemStack(JiojoiModItems.HECHT.get(), 2), 10, 5, 0.05f));
+		}
+		if (event.getType() == VillagerProfession.ARMORER) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(JiojoiModItems.GRETTNE.get(), 10),
+
+					new ItemStack(Items.EMERALD, 3), 10, 5, 0.05f));
+		}
 	}
 }
