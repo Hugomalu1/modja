@@ -35,5 +35,8 @@ public class JiojoiModTrades {
 
 					new ItemStack(Items.EMERALD, 3), 10, 5, 0.05f));
 		}
+		if (event.getType() == VillagerProfession.ARMORER) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(Items.GLOWSTONE_DUST, 5), new ItemStack(JiojoiModItems.PURLPELGULPER.get()), 10, 5, 0.05f));
+		}
 	}
 }
