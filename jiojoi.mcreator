@@ -513,6 +513,72 @@
           "src/main/java/net/mcreator/jiojoi/world/features/treedecorators/DeadforestLeaveDecorator.java"
         ]
       }
+    },
+    {
+      "name": "Taschenlampe",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taschenlampe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/TaschenlampeItem.java",
+          "src/main/resources/assets/jiojoi/models/item/taschenlampe.json"
+        ]
+      }
+    },
+    {
+      "name": "Defs",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/defs.json"
+        ]
+      }
+    },
+    {
+      "name": "Barsch",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barsch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/BarschItem.java",
+          "src/main/resources/assets/jiojoi/models/item/barsch.json"
+        ]
+      }
+    },
+    {
+      "name": "Fish",
+      "type": "tab",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Namnamgekochterbarsh",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namnamgekochterbarsh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/namnamgekochterbarsh.json",
+          "src/main/java/net/mcreator/jiojoi/item/NamnamgekochterbarshItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -523,11 +589,13 @@
       "block.jiojoi.baumwolle": "cotton",
       "block.jiojoi.microplastick": "Microplastick",
       "item.minecraft.lingering_potion.effect.basch": "Lingering Potion of Bauchschmerzen",
+      "item.jiojoi.taschenlampe": "Flashlight",
       "item.jiojoi.geolterbackfisch": "oiled fried fish",
       "item.jiojoi.knusperstabchen": "Crispystick",
       "biome.jiojoi.deadforest": "Deadforest",
       "item.jiojoi.kohlestabchen": "Kohlestabchen",
       "item.jiojoi.geschmolzenesmicroplastick": "meltedmicroplastick",
+      "item_group.jiojoi.fish": "Fish",
       "item.jiojoi.backfisch": "fried fish",
       "fluid.jiojoi.urol": "Ur-oil",
       "item.jiojoi.stoff": "silk",
@@ -537,12 +605,14 @@
       "item_group.jiojoi.urolindustry": "Urolindustry",
       "death.attack.uroll.item": "%1$s was killed by %2$s using %3$s",
       "item.jiojoi.fischstabchen": "Fishstick",
+      "item.jiojoi.namnamgekochterbarsh": "fried see bass",
       "item.jiojoi.urol_bucket": "Urol Bucket",
       "item.jiojoi.dwag": "Dwag",
       "block.jiojoi.urol": "Ur-oil",
       "item.minecraft.splash_potion.effect.basch": "Splash Potion of Bauchschmerzen",
       "death.attack.uroll": "%1$s got to deep into the lagooooon´s",
       "item.jiojoi.feuerstabchen": "Firestick",
+      "item.jiojoi.barsch": "see bash",
       "death.attack.uroll.player": "%1$s died whilst trying to escape %2$s",
       "item.jiojoi.microplastickfragment": "Microplastickfragments"
     }

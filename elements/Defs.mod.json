@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "CUSTOM:Geschmolzenesmicroplastick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Geschmolzenesmicroplastick"
+      },
+      {
+        "value": "Blocks.LANTERN"
+      },
+      {
+        "value": "CUSTOM:Geschmolzenesmicroplastick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Geschmolzenesmicroplastick"
+      },
+      {
+        "value": "CUSTOM:Geschmolzenesmicroplastick"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Taschenlampe"
+    },
+    "name": "defs",
+    "namespace": "mod"
+  }
+}

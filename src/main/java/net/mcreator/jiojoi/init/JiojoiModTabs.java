@@ -31,5 +31,8 @@ public class JiojoiModTabs {
 				tabData.accept(JiojoiModItems.GESCHMOLZENESMICROPLASTICK.get());
 				tabData.accept(JiojoiModBlocks.BAUMWOLLE.get().asItem());
 				tabData.accept(JiojoiModItems.STOFF.get());
+				tabData.accept(JiojoiModItems.TASCHENLAMPE.get());
+				tabData.accept(JiojoiModItems.BARSCH.get());
+				tabData.accept(JiojoiModItems.NAMNAMGEKOCHTERBARSH.get());
 			}).withSearchBar().build());
 }
