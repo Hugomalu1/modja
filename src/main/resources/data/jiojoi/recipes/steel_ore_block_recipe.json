@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "jiojoi:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "jiojoi:steel_block",
+    "count": 1
+  }
+}

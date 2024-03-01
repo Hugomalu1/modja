@@ -767,17 +767,106 @@
           "src/main/resources/data/jiojoi/recipes/fds.json"
         ]
       }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/SteelIngotItem.java",
+          "src/main/resources/assets/jiojoi/models/item/steel_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelOre",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/forge/biome_modifier/steel_ore_biome_modifier.json",
+          "src/main/resources/data/jiojoi/worldgen/configured_feature/steel_ore.json",
+          "src/main/resources/data/jiojoi/worldgen/placed_feature/steel_ore.json",
+          "src/main/resources/assets/jiojoi/models/item/steel_ore.json",
+          "src/main/resources/assets/jiojoi/models/block/steel_ore.json",
+          "src/main/java/net/mcreator/jiojoi/block/SteelOreBlock.java",
+          "src/main/resources/assets/jiojoi/blockstates/steel_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/block/SteelBlockBlock.java",
+          "src/main/resources/assets/jiojoi/models/block/steel_block.json",
+          "src/main/resources/assets/jiojoi/models/item/steel_block.json",
+          "src/main/resources/assets/jiojoi/blockstates/steel_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/steel_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/steel_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelOreSmelting",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jiojoi/recipes/steel_ore_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.jiojoi.baumwolle": "cotton",
       "item.jiojoi.ziegelstabchen": "Brickstick",
-      "item.jiojoi.hecht": "Hecht idk the name auf english mussst du amken!!!",
+      "block.jiojoi.baumwolle": "cotton",
+      "item.jiojoi.hecht": "pike",
+      "block.jiojoi.steel_ore": "Steel Ore",
       "block.jiojoi.microplastick": "Microplastick",
-      "item.jiojoi.halfef": "halfeatenhecht",
+      "item.jiojoi.halfef": "half eaten fried pike",
       "item.minecraft.lingering_potion.effect.basch": "Lingering Potion of Bauchschmerzen",
       "item.jiojoi.taschenlampe": "Flashlight",
       "item.jiojoi.geolterbackfisch": "oiled fried fish",
@@ -791,7 +880,7 @@
       "fluid.jiojoi.urol": "Ur-oil",
       "item.jiojoi.stoff": "silk",
       "item.minecraft.tipped_arrow.effect.basch": "Arrow of Bauchschmerzen",
-      "item.jiojoi.gekochterhecht": "fried hecht",
+      "item.jiojoi.gekochterhecht": "fried pike",
       "effect.jiojoi.ba": "bauchschmerzen",
       "item.minecraft.potion.effect.basch": "Potion of Bauchschmerzen",
       "item.jiojoi.purlpelgulper": "Purlpel gulper",
@@ -803,12 +892,14 @@
       "item.jiojoi.dwag": "Dwag",
       "block.jiojoi.urol": "Ur-oil",
       "item.minecraft.splash_potion.effect.basch": "Splash Potion of Bauchschmerzen",
-      "item.jiojoi.dawdaw": "halfeatenhecht",
+      "item.jiojoi.dawdaw": "half eaten pike",
       "item.jiojoi.profishingrod": "Profishingrod",
+      "item.jiojoi.steel_ingot": "Steel",
       "death.attack.uroll": "%1$s got to deep into the lagooooon´s",
       "item.jiojoi.grettne": "fishbones",
       "item.jiojoi.feuerstabchen": "Firestick",
       "item.jiojoi.barsch": "see bash",
+      "block.jiojoi.steel_block": "Block of Steel",
       "death.attack.uroll.player": "%1$s died whilst trying to escape %2$s",
       "item.jiojoi.microplastickfragment": "Microplastickfragments"
     }

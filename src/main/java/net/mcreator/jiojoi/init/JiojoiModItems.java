@@ -16,6 +16,7 @@ import net.mcreator.jiojoi.item.ZiegelstabchenItem;
 import net.mcreator.jiojoi.item.UrolItem;
 import net.mcreator.jiojoi.item.TaschenlampeItem;
 import net.mcreator.jiojoi.item.StoffItem;
+import net.mcreator.jiojoi.item.SteelIngotItem;
 import net.mcreator.jiojoi.item.PurlpelgulperItem;
 import net.mcreator.jiojoi.item.ProfishingrodItem;
 import net.mcreator.jiojoi.item.NamnamgekochterbarshItem;
@@ -64,6 +65,9 @@ public class JiojoiModItems {
 	public static final RegistryObject<Item> PROFISHINGROD = REGISTRY.register("profishingrod", () -> new ProfishingrodItem());
 	public static final RegistryObject<Item> PURLPELGULPER = REGISTRY.register("purlpelgulper", () -> new PurlpelgulperItem());
 	public static final RegistryObject<Item> FRIEDPURPELGULPER = REGISTRY.register("friedpurpelgulper", () -> new FriedpurpelgulperItem());
+	public static final RegistryObject<Item> STEEL_ORE = block(JiojoiModBlocks.STEEL_ORE);
+	public static final RegistryObject<Item> STEEL_BLOCK = block(JiojoiModBlocks.STEEL_BLOCK);
+	public static final RegistryObject<Item> STEEL_INGOT = REGISTRY.register("steel_ingot", () -> new SteelIngotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

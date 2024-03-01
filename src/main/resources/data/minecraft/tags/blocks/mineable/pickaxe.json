@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "jiojoi:microplastick"
+    "jiojoi:microplastick",
+    "jiojoi:steel_ore",
+    "jiojoi:steel_block"
   ]
 }
