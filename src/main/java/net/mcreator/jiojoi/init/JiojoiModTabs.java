@@ -37,6 +37,10 @@ public class JiojoiModTabs {
 				tabData.accept(JiojoiModItems.STEEL_INGOT.get());
 				tabData.accept(JiojoiModItems.SHRIMP.get());
 				tabData.accept(JiojoiModItems.FRIEDSHRIMP.get());
+				tabData.accept(JiojoiModItems.SUNGLASSES.get());
+				tabData.accept(JiojoiModItems.BLACKMELTEDMICROPLASTICK.get());
+				tabData.accept(JiojoiModItems.BLUEMELTEDMICROPLASTICK.get());
+				tabData.accept(JiojoiModItems.REDMELTEDMICROPLASTICK.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> FISH = REGISTRY.register("fish",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jiojoi.fish")).icon(() -> new ItemStack(JiojoiModItems.BARSCH.get())).displayItems((parameters, tabData) -> {
@@ -52,5 +56,7 @@ public class JiojoiModTabs {
 				tabData.accept(JiojoiModItems.FRIEDPURPELGULPER.get());
 				tabData.accept(JiojoiModItems.HARPUNE.get());
 				tabData.accept(JiojoiModItems.SHRIMPSHELL.get());
+				tabData.accept(JiojoiModItems.TURTEL.get());
+				tabData.accept(JiojoiModItems.Z_ZZZZZAAAAH_TURTEL.get());
 			}).withSearchBar().build());
 }

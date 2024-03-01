@@ -13,12 +13,16 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.jiojoi.item.ZiegelstabchenItem;
+import net.mcreator.jiojoi.item.ZZzzzzaaaahTURTELItem;
 import net.mcreator.jiojoi.item.UrolItem;
+import net.mcreator.jiojoi.item.TurtelItem;
 import net.mcreator.jiojoi.item.TaschenlampeItem;
+import net.mcreator.jiojoi.item.SunglassesItem;
 import net.mcreator.jiojoi.item.StoffItem;
 import net.mcreator.jiojoi.item.SteelIngotItem;
 import net.mcreator.jiojoi.item.ShrimpshellItem;
 import net.mcreator.jiojoi.item.ShrimpItem;
+import net.mcreator.jiojoi.item.RedmeltedmicroplastickItem;
 import net.mcreator.jiojoi.item.PurlpelgulperItem;
 import net.mcreator.jiojoi.item.ProfishingrodItem;
 import net.mcreator.jiojoi.item.NamnamgekochterbarshItem;
@@ -38,6 +42,8 @@ import net.mcreator.jiojoi.item.FischstabchenItem;
 import net.mcreator.jiojoi.item.FeuerstabchenItem;
 import net.mcreator.jiojoi.item.DwagItem;
 import net.mcreator.jiojoi.item.DawdawItem;
+import net.mcreator.jiojoi.item.BluemeltedmicroplastickItem;
+import net.mcreator.jiojoi.item.BlackmeltedmicroplastickItem;
 import net.mcreator.jiojoi.item.BarschItem;
 import net.mcreator.jiojoi.item.BackfischItem;
 import net.mcreator.jiojoi.JiojoiMod;
@@ -76,6 +82,12 @@ public class JiojoiModItems {
 	public static final RegistryObject<Item> SHRIMP = REGISTRY.register("shrimp", () -> new ShrimpItem());
 	public static final RegistryObject<Item> FRIEDSHRIMP = REGISTRY.register("friedshrimp", () -> new FriedshrimpItem());
 	public static final RegistryObject<Item> SHRIMPSHELL = REGISTRY.register("shrimpshell", () -> new ShrimpshellItem());
+	public static final RegistryObject<Item> TURTEL = REGISTRY.register("turtel", () -> new TurtelItem());
+	public static final RegistryObject<Item> Z_ZZZZZAAAAH_TURTEL = REGISTRY.register("z_zzzzzaaaah_turtel", () -> new ZZzzzzaaaahTURTELItem());
+	public static final RegistryObject<Item> SUNGLASSES = REGISTRY.register("sunglasses", () -> new SunglassesItem());
+	public static final RegistryObject<Item> BLACKMELTEDMICROPLASTICK = REGISTRY.register("blackmeltedmicroplastick", () -> new BlackmeltedmicroplastickItem());
+	public static final RegistryObject<Item> BLUEMELTEDMICROPLASTICK = REGISTRY.register("bluemeltedmicroplastick", () -> new BluemeltedmicroplastickItem());
+	public static final RegistryObject<Item> REDMELTEDMICROPLASTICK = REGISTRY.register("redmeltedmicroplastick", () -> new RedmeltedmicroplastickItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

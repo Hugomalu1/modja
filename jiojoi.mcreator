@@ -978,57 +978,147 @@
           "src/main/resources/data/jiojoi/recipes/wawdwdwddwwdadwdwdaw.json"
         ]
       }
+    },
+    {
+      "name": "Turtel",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/turtel.json",
+          "src/main/java/net/mcreator/jiojoi/item/TurtelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ZZzzzzaaaahTURTEL",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z_zzzzzaaaah_turtel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/ZZzzzzaaaahTURTELItem.java",
+          "src/main/resources/assets/jiojoi/models/item/z_zzzzzaaaah_turtel.json"
+        ]
+      }
+    },
+    {
+      "name": "Sunglasses",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunglasses",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/SunglassesItem.java",
+          "src/main/resources/assets/jiojoi/models/item/sunglasses.json"
+        ]
+      }
+    },
+    {
+      "name": "Blackmeltedmicroplastick",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackmeltedmicroplastick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/BlackmeltedmicroplastickItem.java",
+          "src/main/resources/assets/jiojoi/models/item/blackmeltedmicroplastick.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluemeltedmicroplastick",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluemeltedmicroplastick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jiojoi/item/BluemeltedmicroplastickItem.java",
+          "src/main/resources/assets/jiojoi/models/item/bluemeltedmicroplastick.json"
+        ]
+      }
+    },
+    {
+      "name": "Redmeltedmicroplastick",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redmeltedmicroplastick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jiojoi/models/item/redmeltedmicroplastick.json",
+          "src/main/java/net/mcreator/jiojoi/item/RedmeltedmicroplastickItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.jiojoi.shrimpshell": "Shrimpshell",
-      "item.jiojoi.ziegelstabchen": "Brickstick",
-      "block.jiojoi.baumwolle": "cotton",
       "item.jiojoi.hecht": "pike",
-      "block.jiojoi.steel_ore": "Steel Ore",
       "block.jiojoi.microplastick": "Microplastick",
       "gui.jiojoi.fritose.button_fry": "fry",
+      "item.jiojoi.turtel": "Turtel",
+      "item.jiojoi.z_zzzzzaaaah_turtel": "ZZzzzzaaaah   TURTEL !!!",
+      "biome.jiojoi.deadforest": "Deadforest",
+      "item.jiojoi.friedpurpelgulper": "Friedpurpelgulper",
+      "item.jiojoi.kohlestabchen": "Kohlestabchen",
+      "item.jiojoi.sunglasses": "Sunglasses",
+      "item.jiojoi.geschmolzenesmicroplastick": "meltedmicroplastick",
+      "item_group.jiojoi.fish": "Fish",
+      "item.jiojoi.backfisch": "fried fish",
+      "fluid.jiojoi.urol": "Ur-oil",
+      "item.jiojoi.redmeltedmicroplastick": "Redmeltedmicroplastick",
+      "item.jiojoi.gekochterhecht": "fried pike",
+      "item.jiojoi.purlpelgulper": "Purlpel gulper",
+      "item_group.jiojoi.urolindustry": "Urolindustry",
+      "item.jiojoi.harpune": "Harpune",
+      "item.jiojoi.shrimp": "Shrimp",
+      "item.jiojoi.namnamgekochterbarsh": "fried see bass",
+      "item.minecraft.splash_potion.effect.basch": "Splash Potion of Bauchschmerzen",
+      "item.jiojoi.profishingrod": "Profishingrod",
+      "item.jiojoi.steel_ingot": "Steel",
+      "item.jiojoi.grettne": "fishbones",
+      "death.attack.uroll.player": "%1$s died whilst trying to escape %2$s",
+      "item.jiojoi.blackmeltedmicroplastick": "Blackmeltedmicroplastick",
+      "item.jiojoi.shrimpshell": "Shrimpshell",
+      "block.jiojoi.baumwolle": "cotton",
+      "item.jiojoi.ziegelstabchen": "Brickstick",
+      "block.jiojoi.steel_ore": "Steel Ore",
       "item.jiojoi.halfef": "half eaten fried pike",
       "item.jiojoi.friedshrimp": "Friedshrimp",
       "item.minecraft.lingering_potion.effect.basch": "Lingering Potion of Bauchschmerzen",
       "item.jiojoi.taschenlampe": "Flashlight",
       "item.jiojoi.geolterbackfisch": "oiled fried fish",
       "item.jiojoi.knusperstabchen": "Crispystick",
-      "biome.jiojoi.deadforest": "Deadforest",
-      "item.jiojoi.friedpurpelgulper": "Friedpurpelgulper",
-      "item.jiojoi.kohlestabchen": "Kohlestabchen",
-      "item.jiojoi.geschmolzenesmicroplastick": "meltedmicroplastick",
-      "item_group.jiojoi.fish": "Fish",
-      "item.jiojoi.backfisch": "fried fish",
-      "fluid.jiojoi.urol": "Ur-oil",
       "item.jiojoi.stoff": "silk",
       "item.minecraft.tipped_arrow.effect.basch": "Arrow of Bauchschmerzen",
-      "item.jiojoi.gekochterhecht": "fried pike",
       "effect.jiojoi.ba": "bauchschmerzen",
       "item.minecraft.potion.effect.basch": "Potion of Bauchschmerzen",
-      "item.jiojoi.purlpelgulper": "Purlpel gulper",
-      "item_group.jiojoi.urolindustry": "Urolindustry",
+      "item.jiojoi.bluemeltedmicroplastick": "Bluemeltedmicroplastick",
       "death.attack.uroll.item": "%1$s was killed by %2$s using %3$s",
-      "item.jiojoi.harpune": "Harpune",
       "item.jiojoi.fischstabchen": "Fishstick",
-      "item.jiojoi.shrimp": "Shrimp",
-      "item.jiojoi.namnamgekochterbarsh": "fried see bass",
       "item.jiojoi.urol_bucket": "Urol Bucket",
       "item.jiojoi.dwag": "Dwag",
       "block.jiojoi.urol": "Ur-oil",
-      "item.minecraft.splash_potion.effect.basch": "Splash Potion of Bauchschmerzen",
       "item.jiojoi.dawdaw": "half eaten pike",
-      "item.jiojoi.profishingrod": "Profishingrod",
-      "item.jiojoi.steel_ingot": "Steel",
       "death.attack.uroll": "%1$s got to deep into the lagooooon´s",
-      "item.jiojoi.grettne": "fishbones",
       "item.jiojoi.feuerstabchen": "Firestick",
       "item.jiojoi.barsch": "see bash",
       "block.jiojoi.steel_block": "Block of Steel",
-      "death.attack.uroll.player": "%1$s died whilst trying to escape %2$s",
       "item.jiojoi.microplastickfragment": "Microplastickfragments"
     }
   },
