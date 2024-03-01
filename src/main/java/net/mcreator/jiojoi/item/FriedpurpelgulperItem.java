@@ -17,7 +17,7 @@ import java.util.List;
 
 public class FriedpurpelgulperItem extends Item {
 	public FriedpurpelgulperItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.6f).meat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(7).saturationMod(0.6f).meat().build()));
 	}
 
 	@Override

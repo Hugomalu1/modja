@@ -17,7 +17,7 @@ import java.util.List;
 
 public class NamnamgekochterbarshItem extends Item {
 	public NamnamgekochterbarshItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.3f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(7).saturationMod(0.3f).build()));
 	}
 
 	@Override
