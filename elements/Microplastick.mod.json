@@ -75,8 +75,8 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 5.0,
-    "speedFactor": 10.0,
-    "jumpFactor": 20.0,
+    "speedFactor": 3.0,
+    "jumpFactor": 5.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -98,7 +98,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 1,
+    "luminance": 6,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
