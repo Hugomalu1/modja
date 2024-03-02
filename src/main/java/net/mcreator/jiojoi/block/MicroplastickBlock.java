@@ -21,7 +21,7 @@ import java.util.Collections;
 
 public class MicroplastickBlock extends Block {
 	public MicroplastickBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.SCAFFOLDING).strength(5f, 10f).lightLevel(s -> 6).requiresCorrectToolForDrops().friction(5f).speedFactor(3f).jumpFactor(5f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.SCAFFOLDING).strength(5f, 10f).lightLevel(s -> 6).requiresCorrectToolForDrops().friction(5f).speedFactor(1.1f).jumpFactor(1.2f));
 	}
 
 	@Override
