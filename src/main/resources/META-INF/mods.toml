@@ -3,14 +3,14 @@ loaderVersion="[47,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="surfinbird"
-version="2.4.2"
-displayName="surfinbird"
+modId="jiojoi"
+version="1.0.0"
+displayName="jiojoi"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="Markus, MCreator"
 
-[[dependencies.surfinbird]]
+[[dependencies.jiojoi]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"
